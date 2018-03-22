@@ -1,0 +1,29 @@
+PODS:
+  - FDFullscreenPopGesture (1.1)
+  - FMDB (2.6.2):
+    - FMDB/standard (= 2.6.2)
+  - FMDB/standard (2.6.2)
+  - ReactiveCocoa (2.5):
+    - ReactiveCocoa/UI (= 2.5)
+  - ReactiveCocoa/Core (2.5):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.5)
+  - ReactiveCocoa/UI (2.5):
+    - ReactiveCocoa/Core
+  - YYModel (1.0.4)
+
+DEPENDENCIES:
+  - FDFullscreenPopGesture (= 1.1)
+  - FMDB (~> 2.6.2)
+  - ReactiveCocoa (~> 2.5.0)
+  - YYModel
+
+SPEC CHECKSUMS:
+  FDFullscreenPopGesture: a8a620179e3d9c40e8e00256dcee1c1a27c6d0f0
+  FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
+  ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
+
+PODFILE CHECKSUM: d501fa58492dc314bedf67972fe8b3706896292c
+
+COCOAPODS: 1.2.0

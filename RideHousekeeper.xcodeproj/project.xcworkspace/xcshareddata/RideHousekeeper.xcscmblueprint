@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "c40137cb-6c7e-c044-a8bf-eeab6888dbf6",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "c40137cb-6c7e-c044-a8bf-eeab6888dbf6" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "c40137cb-6c7e-c044-a8bf-eeab6888dbf6" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "02155131-838B-41A2-BAF4-5BDCD0D71C49",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "c40137cb-6c7e-c044-a8bf-eeab6888dbf6" : "RideHousekeeper\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "RideHousekeeper",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "RideHousekeeper.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/192.168.31.27\/repos\/qgj_ios",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "c40137cb-6c7e-c044-a8bf-eeab6888dbf6"
+    }
+  ]
+}

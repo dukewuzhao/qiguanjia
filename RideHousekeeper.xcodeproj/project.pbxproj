@@ -189,26 +189,19 @@
 		1812678620118ED40053A8F4 /* back@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 181266D520118ED40053A8F4 /* back@3x.png */; };
 		1812678820118ED40053A8F4 /* bike_mute_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 181266D720118ED40053A8F4 /* bike_mute_icon@2x.png */; };
 		1812678920118ED40053A8F4 /* bike_nomute_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 181266D820118ED40053A8F4 /* bike_nomute_icon@2x.png */; };
-		1812678A20118ED40053A8F4 /* bluetooth_key_break@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 181266D920118ED40053A8F4 /* bluetooth_key_break@2x.png */; };
-		1812678B20118ED40053A8F4 /* bluetooth_key_connect@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 181266DA20118ED40053A8F4 /* bluetooth_key_connect@2x.png */; };
 		1812678C20118ED40053A8F4 /* brand_logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 181266DB20118ED40053A8F4 /* brand_logo@2x.png */; };
 		1812678D20118ED40053A8F4 /* close_the_switch@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 181266DC20118ED40053A8F4 /* close_the_switch@2x.png */; };
 		1812678E20118ED40053A8F4 /* icon_bike_lock_blue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 181266DD20118ED40053A8F4 /* icon_bike_lock_blue@2x.png */; };
 		1812678F20118ED40053A8F4 /* icon_bike_unlock_blue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 181266DE20118ED40053A8F4 /* icon_bike_unlock_blue@2x.png */; };
 		1812679120118ED40053A8F4 /* icon_default_model.png in Resources */ = {isa = PBXBuildFile; fileRef = 181266E020118ED40053A8F4 /* icon_default_model.png */; };
 		1812679220118ED40053A8F4 /* icon_faultview_checked@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 181266E120118ED40053A8F4 /* icon_faultview_checked@2x.png */; };
-		1812679320118ED40053A8F4 /* inductive_display@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 181266E220118ED40053A8F4 /* inductive_display@2x.png */; };
 		1812679520118ED40053A8F4 /* logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 181266E420118ED40053A8F4 /* logo@2x.png */; };
 		1812679620118ED40053A8F4 /* logo_1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 181266E520118ED40053A8F4 /* logo_1@2x.png */; };
-		1812679820118ED40053A8F4 /* no_inductive_display@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 181266E720118ED40053A8F4 /* no_inductive_display@2x.png */; };
-		1812679920118ED40053A8F4 /* OFF@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 181266E820118ED40053A8F4 /* OFF@2x.png */; };
-		1812679A20118ED40053A8F4 /* ON@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 181266E920118ED40053A8F4 /* ON@2x.png */; };
 		1812679B20118ED40053A8F4 /* open_slide_menu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 181266EA20118ED40053A8F4 /* open_slide_menu@2x.png */; };
 		1812679C20118ED40053A8F4 /* open_the_switch@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 181266EB20118ED40053A8F4 /* open_the_switch@2x.png */; };
 		1812679D20118ED40053A8F4 /* riding_gps@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 181266EC20118ED40053A8F4 /* riding_gps@2x.png */; };
 		1812679E20118ED40053A8F4 /* saomiao@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 181266ED20118ED40053A8F4 /* saomiao@2x.png */; };
 		1812679F20118ED40053A8F4 /* icon_bike_seat@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 181266EE20118ED40053A8F4 /* icon_bike_seat@2x.png */; };
-		181267A020118ED40053A8F4 /* sidelogo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 181266EF20118ED40053A8F4 /* sidelogo@2x.png */; };
 		1815F5412043F0520099B60F /* VehicleControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1815F5402043F0520099B60F /* VehicleControlView.m */; };
 		1815F5442043F2620099B60F /* VehicleConfigurationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1815F5432043F2620099B60F /* VehicleConfigurationView.m */; };
 		1815F5472043F81C0099B60F /* VehicleStateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1815F5462043F81C0099B60F /* VehicleStateView.m */; };
@@ -352,7 +345,6 @@
 		186F313A1D79277700E0C11F /* HCButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 186F31391D79277700E0C11F /* HCButton.m */; };
 		186F313D1D792CC700E0C11F /* OfflineDemoMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186F313C1D792CC700E0C11F /* OfflineDemoMapViewController.m */; };
 		186F31401D7AA92900E0C11F /* FaultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186F313F1D7AA92900E0C11F /* FaultViewController.m */; };
-		1875033C204CE22D0075DF3C /* headbg_GPS@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1875033B204CE22D0075DF3C /* headbg_GPS@2x.png */; };
 		18750342204CFC670075DF3C /* spare_parts_management@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1875033D204CFC660075DF3C /* spare_parts_management@2x.png */; };
 		18750343204CFC670075DF3C /* unlock@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1875033E204CFC670075DF3C /* unlock@2x.png */; };
 		18750344204CFC670075DF3C /* lock@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1875033F204CFC670075DF3C /* lock@2x.png */; };
@@ -837,26 +829,19 @@
 		181266D520118ED40053A8F4 /* back@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back@3x.png"; sourceTree = "<group>"; };
 		181266D720118ED40053A8F4 /* bike_mute_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bike_mute_icon@2x.png"; sourceTree = "<group>"; };
 		181266D820118ED40053A8F4 /* bike_nomute_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bike_nomute_icon@2x.png"; sourceTree = "<group>"; };
-		181266D920118ED40053A8F4 /* bluetooth_key_break@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bluetooth_key_break@2x.png"; sourceTree = "<group>"; };
-		181266DA20118ED40053A8F4 /* bluetooth_key_connect@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bluetooth_key_connect@2x.png"; sourceTree = "<group>"; };
 		181266DB20118ED40053A8F4 /* brand_logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "brand_logo@2x.png"; sourceTree = "<group>"; };
 		181266DC20118ED40053A8F4 /* close_the_switch@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "close_the_switch@2x.png"; sourceTree = "<group>"; };
 		181266DD20118ED40053A8F4 /* icon_bike_lock_blue@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_bike_lock_blue@2x.png"; sourceTree = "<group>"; };
 		181266DE20118ED40053A8F4 /* icon_bike_unlock_blue@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_bike_unlock_blue@2x.png"; sourceTree = "<group>"; };
 		181266E020118ED40053A8F4 /* icon_default_model.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_default_model.png; sourceTree = "<group>"; };
 		181266E120118ED40053A8F4 /* icon_faultview_checked@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_faultview_checked@2x.png"; sourceTree = "<group>"; };
-		181266E220118ED40053A8F4 /* inductive_display@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "inductive_display@2x.png"; sourceTree = "<group>"; };
 		181266E420118ED40053A8F4 /* logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo@2x.png"; sourceTree = "<group>"; };
 		181266E520118ED40053A8F4 /* logo_1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo_1@2x.png"; sourceTree = "<group>"; };
-		181266E720118ED40053A8F4 /* no_inductive_display@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "no_inductive_display@2x.png"; sourceTree = "<group>"; };
-		181266E820118ED40053A8F4 /* OFF@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "OFF@2x.png"; sourceTree = "<group>"; };
-		181266E920118ED40053A8F4 /* ON@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ON@2x.png"; sourceTree = "<group>"; };
 		181266EA20118ED40053A8F4 /* open_slide_menu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "open_slide_menu@2x.png"; sourceTree = "<group>"; };
 		181266EB20118ED40053A8F4 /* open_the_switch@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "open_the_switch@2x.png"; sourceTree = "<group>"; };
 		181266EC20118ED40053A8F4 /* riding_gps@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "riding_gps@2x.png"; sourceTree = "<group>"; };
 		181266ED20118ED40053A8F4 /* saomiao@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "saomiao@2x.png"; sourceTree = "<group>"; };
 		181266EE20118ED40053A8F4 /* icon_bike_seat@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_bike_seat@2x.png"; sourceTree = "<group>"; };
-		181266EF20118ED40053A8F4 /* sidelogo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sidelogo@2x.png"; sourceTree = "<group>"; };
 		1815F53F2043F0520099B60F /* VehicleControlView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VehicleControlView.h; sourceTree = "<group>"; };
 		1815F5402043F0520099B60F /* VehicleControlView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VehicleControlView.m; sourceTree = "<group>"; };
 		1815F5422043F2620099B60F /* VehicleConfigurationView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VehicleConfigurationView.h; sourceTree = "<group>"; };
@@ -1114,7 +1099,6 @@
 		186F313C1D792CC700E0C11F /* OfflineDemoMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OfflineDemoMapViewController.m; sourceTree = "<group>"; };
 		186F313E1D7AA92900E0C11F /* FaultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaultViewController.h; sourceTree = "<group>"; };
 		186F313F1D7AA92900E0C11F /* FaultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaultViewController.m; sourceTree = "<group>"; };
-		1875033B204CE22D0075DF3C /* headbg_GPS@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "headbg_GPS@2x.png"; sourceTree = "<group>"; };
 		1875033D204CFC660075DF3C /* spare_parts_management@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "spare_parts_management@2x.png"; sourceTree = "<group>"; };
 		1875033E204CFC670075DF3C /* unlock@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "unlock@2x.png"; sourceTree = "<group>"; };
 		1875033F204CFC670075DF3C /* lock@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lock@2x.png"; sourceTree = "<group>"; };
@@ -1972,8 +1956,6 @@
 				181266D720118ED40053A8F4 /* bike_mute_icon@2x.png */,
 				181266D820118ED40053A8F4 /* bike_nomute_icon@2x.png */,
 				189787DF20561C2B00449627 /* bike_track@2x.png */,
-				181266D920118ED40053A8F4 /* bluetooth_key_break@2x.png */,
-				181266DA20118ED40053A8F4 /* bluetooth_key_connect@2x.png */,
 				181266DB20118ED40053A8F4 /* brand_logo@2x.png */,
 				181266DC20118ED40053A8F4 /* close_the_switch@2x.png */,
 				181266DD20118ED40053A8F4 /* icon_bike_lock_blue@2x.png */,
@@ -1987,21 +1969,15 @@
 				1875033E204CFC670075DF3C /* unlock@2x.png */,
 				18750340204CFC670075DF3C /* vehicle_physical_examination@2x.png */,
 				18750341204CFC670075DF3C /* vehicle_setting@2x.png */,
-				181266E220118ED40053A8F4 /* inductive_display@2x.png */,
 				181266E420118ED40053A8F4 /* logo@2x.png */,
 				181266E520118ED40053A8F4 /* logo_1@2x.png */,
 				181E6BF120492A6F00E017AE /* headbg_NoGPS.png */,
-				1875033B204CE22D0075DF3C /* headbg_GPS@2x.png */,
-				181266E720118ED40053A8F4 /* no_inductive_display@2x.png */,
-				181266E820118ED40053A8F4 /* OFF@2x.png */,
-				181266E920118ED40053A8F4 /* ON@2x.png */,
 				181266EA20118ED40053A8F4 /* open_slide_menu@2x.png */,
 				181266EB20118ED40053A8F4 /* open_the_switch@2x.png */,
 				180BD31A204E3D9B00A634E4 /* riding_no_gps@2x.png */,
 				181266EC20118ED40053A8F4 /* riding_gps@2x.png */,
 				181266ED20118ED40053A8F4 /* saomiao@2x.png */,
 				181266EE20118ED40053A8F4 /* icon_bike_seat@2x.png */,
-				181266EF20118ED40053A8F4 /* sidelogo@2x.png */,
 				18750347204CFCDE0075DF3C /* vehicle_physical_examination_icon@2x.png */,
 				187C77B5205106FA0083088C /* menu_addbike@2x.png */,
 				187C77B6205106FA0083088C /* menu_bindingUser@2x.png */,
@@ -3792,7 +3768,6 @@
 				18B8DA42205774D400729B94 /* dayu.png in Resources */,
 				18B8DA57205774D400729B94 /* zhenyu.png in Resources */,
 				1812673E20118ED40053A8F4 /* controller@3x.png in Resources */,
-				1812679820118ED40053A8F4 /* no_inductive_display@2x.png in Resources */,
 				180BD31F204E401600A634E4 /* lock_gps@2x.png in Resources */,
 				18E2A5391EF3AAF700EB7851 /* leftimg.png in Resources */,
 				1812675520118ED40053A8F4 /* undervoltage1@3x.png in Resources */,
@@ -3808,7 +3783,6 @@
 				1812671720118ED40053A8F4 /* fingerprint_step_two@2x.png in Resources */,
 				181266F320118ED40053A8F4 /* arrow@2x.png in Resources */,
 				18B8DA832057CC9A00729B94 /* connect_server.gif in Resources */,
-				181267A020118ED40053A8F4 /* sidelogo@2x.png in Resources */,
 				1812671C20118ED40053A8F4 /* n@2x.png in Resources */,
 				18B8DA872057CC9A00729B94 /* gps_headbg@2x.png in Resources */,
 				1812678020118ED40053A8F4 /* icon_line_right_false.png in Resources */,
@@ -3823,7 +3797,6 @@
 				1812670D20118ED40053A8F4 /* icon_map_set@2x.png in Resources */,
 				18750344204CFC670075DF3C /* lock@2x.png in Resources */,
 				181266FB20118ED40053A8F4 /* default_user_icon@2x.png in Resources */,
-				1812679320118ED40053A8F4 /* inductive_display@2x.png in Resources */,
 				181266FE20118ED40053A8F4 /* riding_map@2x.png in Resources */,
 				18B8DA50205774D400729B94 /* xiaoxuezhuanzhongxue.png in Resources */,
 				1812674D20118ED40053A8F4 /* rotation1.png in Resources */,
@@ -3863,7 +3836,6 @@
 				180BD31B204E3D9B00A634E4 /* riding_no_gps@2x.png in Resources */,
 				1812671820118ED40053A8F4 /* user_fingerprint_icon@2x.png in Resources */,
 				18D21D6E205B9F56005ECE2E /* message_clock@2x.png in Resources */,
-				1812679A20118ED40053A8F4 /* ON@2x.png in Resources */,
 				1812676920118ED40053A8F4 /* binding_find_key@2x.png in Resources */,
 				1812672520118ED40053A8F4 /* peripheral_add@2x.png in Resources */,
 				1883C6902059088D00AAFBA6 /* LXCalendarHearder.xib in Resources */,
@@ -3882,7 +3854,6 @@
 				1812671120118ED40053A8F4 /* stopdown@2x.png in Resources */,
 				1812673320118ED40053A8F4 /* icon_signal4@2x.png in Resources */,
 				1812674820118ED40053A8F4 /* electric1@3x.png in Resources */,
-				1812678A20118ED40053A8F4 /* bluetooth_key_break@2x.png in Resources */,
 				18B8DA54205774D400729B94 /* yin.png in Resources */,
 				1812678320118ED40053A8F4 /* add@2x.png in Resources */,
 				18B8DA4F205774D400729B94 /* xiaoxue.png in Resources */,
@@ -3934,7 +3905,6 @@
 				18B8DA8B2057CC9A00729B94 /* prompt_prepare@2x.png in Resources */,
 				1812670520118ED40053A8F4 /* icon_pwd_show_not.png in Resources */,
 				181266F520118ED40053A8F4 /* fade_back@2x.png in Resources */,
-				1812679920118ED40053A8F4 /* OFF@2x.png in Resources */,
 				1812674F20118ED40053A8F4 /* rotation1@3x.png in Resources */,
 				9DF354711D1A900B008F0908 /* MBProgressHUD.bundle in Resources */,
 				18A85F931F69009F00C0E962 /* readme.txt in Resources */,
@@ -3962,7 +3932,6 @@
 				1812670820118ED40053A8F4 /* downloading@2x.png in Resources */,
 				1812674E20118ED40053A8F4 /* rotation1@2x.png in Resources */,
 				1812672C20118ED40053A8F4 /* find_bg@2x.png in Resources */,
-				1875033C204CE22D0075DF3C /* headbg_GPS@2x.png in Resources */,
 				1812678120118ED40053A8F4 /* icon_line_right_true.png in Resources */,
 				1812671320118ED40053A8F4 /* fingerprint_icon@2x.png in Resources */,
 				181266F620118ED40053A8F4 /* help_center@2x.png in Resources */,
@@ -4014,7 +3983,6 @@
 				181266FA20118ED40053A8F4 /* course@2x.png in Resources */,
 				182BA7641F4137E2001BA381 /* WebP.sh in Resources */,
 				1812674520118ED40053A8F4 /* electric.png in Resources */,
-				1812678B20118ED40053A8F4 /* bluetooth_key_connect@2x.png in Resources */,
 				1812674320118ED40053A8F4 /* defect@2x.png in Resources */,
 				1812676220118ED40053A8F4 /* max@2x.png in Resources */,
 				18B8DA69205782F000729B94 /* induckey_break@2x.png in Resources */,

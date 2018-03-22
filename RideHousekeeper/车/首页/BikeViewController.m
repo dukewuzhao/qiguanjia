@@ -1439,10 +1439,10 @@
         }
         
         if ([[keystatenumber substringWithRange:NSMakeRange(7, 1)] isEqualToString:@"1"]) {
-            [(SideMenuViewController *)self.sideViewController.sideVC inductionImg];
+            [(SideMenuViewController *)self.sideViewController.sideVC inductionImg].image = [UIImage imageNamed:@"induckey_connect"];
             keyInduction = YES;
         }else if ([[keystatenumber substringWithRange:NSMakeRange(7, 1)] isEqualToString:@"0"]){
-            [(SideMenuViewController *)self.sideViewController.sideVC inductionImg];
+            [(SideMenuViewController *)self.sideViewController.sideVC inductionImg].image = [UIImage imageNamed:@"induckey_break"];
             keyInduction = NO;
         }
         int value = byte[15];

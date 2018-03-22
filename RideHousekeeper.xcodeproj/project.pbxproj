@@ -503,7 +503,7 @@
 		18DDD73520633B94008185E3 /* Indicator_arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18DDD73420633B94008185E3 /* Indicator_arrow@2x.png */; };
 		18DDD73720633B9A008185E3 /* fingerprint_press@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18DDD73620633B9A008185E3 /* fingerprint_press@2x.png */; };
 		18DDD73B20633BD1008185E3 /* ConfigureFingerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DDD73A20633BD1008185E3 /* ConfigureFingerView.m */; };
-		18DDD73F20633BE7008185E3 /* FingerprintAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DDD73E20633BE7008185E3 /* FingerprintAnimationView.m */; };
+		18DDD7432063AED7008185E3 /* FingerprintAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DDD7422063AED7008185E3 /* FingerprintAnimationView.m */; };
 		18E040D01D34AC4C00F1CAC0 /* AddBikeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E040CF1D34AC4C00F1CAC0 /* AddBikeViewController.m */; };
 		18E082C41F16116C000AB1B5 /* FaultModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E082C31F16116C000AB1B5 /* FaultModel.m */; };
 		18E082CA1F161D77000AB1B5 /* DfuDownloadFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E082C91F161D77000AB1B5 /* DfuDownloadFile.m */; };
@@ -1333,8 +1333,8 @@
 		18DDD73620633B9A008185E3 /* fingerprint_press@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fingerprint_press@2x.png"; sourceTree = "<group>"; };
 		18DDD73920633BD1008185E3 /* ConfigureFingerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfigureFingerView.h; sourceTree = "<group>"; };
 		18DDD73A20633BD1008185E3 /* ConfigureFingerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfigureFingerView.m; sourceTree = "<group>"; };
-		18DDD73D20633BE7008185E3 /* FingerprintAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FingerprintAnimationView.h; sourceTree = "<group>"; };
-		18DDD73E20633BE7008185E3 /* FingerprintAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FingerprintAnimationView.m; sourceTree = "<group>"; };
+		18DDD7412063AED7008185E3 /* FingerprintAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FingerprintAnimationView.h; sourceTree = "<group>"; };
+		18DDD7422063AED7008185E3 /* FingerprintAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FingerprintAnimationView.m; sourceTree = "<group>"; };
 		18E040CE1D34AC4C00F1CAC0 /* AddBikeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddBikeViewController.h; sourceTree = "<group>"; };
 		18E040CF1D34AC4C00F1CAC0 /* AddBikeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddBikeViewController.m; sourceTree = "<group>"; };
 		18E082C21F16116C000AB1B5 /* FaultModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaultModel.h; sourceTree = "<group>"; };
@@ -2840,7 +2840,7 @@
 		18B8DA942057D02A00729B94 /* 指纹管理 */ = {
 			isa = PBXGroup;
 			children = (
-				18DDD73C20633BE7008185E3 /* 录入指纹开始动画 */,
+				18DDD7402063AED7008185E3 /* 录入指纹开始动画 */,
 				18067B4D1FC4010200F30035 /* 录入指纹成功页面 */,
 				18DDD73820633BD1008185E3 /* 指纹录入进行中 */,
 				18067B331FC3C14400F30035 /* VehicleFingerprintViewController.h */,
@@ -3051,14 +3051,13 @@
 			path = "指纹录入进行中";
 			sourceTree = "<group>";
 		};
-		18DDD73C20633BE7008185E3 /* 录入指纹开始动画 */ = {
+		18DDD7402063AED7008185E3 /* 录入指纹开始动画 */ = {
 			isa = PBXGroup;
 			children = (
-				18DDD73D20633BE7008185E3 /* FingerprintAnimationView.h */,
-				18DDD73E20633BE7008185E3 /* FingerprintAnimationView.m */,
+				18DDD7412063AED7008185E3 /* FingerprintAnimationView.h */,
+				18DDD7422063AED7008185E3 /* FingerprintAnimationView.m */,
 			);
-			name = "录入指纹开始动画";
-			path = "../../../../../../TaiwanIntelligence/TaiwanIntelligence/车/录入指纹开始动画";
+			path = "录入指纹开始动画";
 			sourceTree = "<group>";
 		};
 		18E2A5301EF3AAF700EB7851 /* 固件升级动画 */ = {
@@ -4176,7 +4175,7 @@
 				184336E61FF22A2F0049B836 /* HttpRequest.m in Sources */,
 				18014B371DCB2E89003D4662 /* BottomBtn.m in Sources */,
 				18C874341DC4501A00634872 /* DeviceModifyViewController.m in Sources */,
-				18DDD73F20633BE7008185E3 /* FingerprintAnimationView.m in Sources */,
+				18DDD7432063AED7008185E3 /* FingerprintAnimationView.m in Sources */,
 				185F90A81D7032D0007AF954 /* AddUserViewController.m in Sources */,
 				185F93001D758863007AF954 /* AccessFileSystem.m in Sources */,
 				182BA79F1F4137F5001BA381 /* YYWebImageOperation.m in Sources */,

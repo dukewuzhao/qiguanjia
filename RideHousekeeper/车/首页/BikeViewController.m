@@ -1368,8 +1368,7 @@
         [[QFTools getBinaryByhex:[date substringWithRange:NSMakeRange(24, 2)]] intValue];
         
         if (byte[14] == 0) {
-//            self.bikestatedetail.text = @"健康";
-//            self.bikestatedetail.textColor = [UIColor whiteColor];
+            custombike.vehicleConfigurationView.bikeTestImge.image = [UIImage imageNamed:@"vehicle_physical_examination"];
             
             self.faultmodel.motorfault = 0;
             self.faultmodel.rotationfault = 0;
@@ -1379,10 +1378,8 @@
             self.faultmodel.motordefectNum = 0;
             
         }else{
-        
-//            self.bikestatedetail.text = @"故障";
-//            self.bikestatedetail.textColor = [UIColor redColor];
-            
+            custombike.vehicleConfigurationView.bikeTestImge.image = [UIImage imageNamed:@"bike_fault"];
+
             if([[bikestate substringWithRange:NSMakeRange(7, 1)] isEqualToString:@"1"]){
                 //电机故障
                 self.faultmodel.motorfault = 1;
@@ -1440,18 +1437,19 @@
         
         if ([[keystatenumber substringWithRange:NSMakeRange(7, 1)] isEqualToString:@"1"]) {
             [(SideMenuViewController *)self.sideViewController.sideVC inductionImg].image = [UIImage imageNamed:@"induckey_connect"];
+            [(SideMenuViewController *)self.sideViewController.sideVC inductionElectricity].hidden = NO;
             keyInduction = YES;
+            int value = byte[15];
+            [(SideMenuViewController *)self.sideViewController.sideVC inductionElectricity].text = [NSString stringWithFormat:@"%d%%",value];
         }else if ([[keystatenumber substringWithRange:NSMakeRange(7, 1)] isEqualToString:@"0"]){
             [(SideMenuViewController *)self.sideViewController.sideVC inductionImg].image = [UIImage imageNamed:@"induckey_break"];
+            [(SideMenuViewController *)self.sideViewController.sideVC inductionElectricity].hidden = YES;
             keyInduction = NO;
         }
-        int value = byte[15];
-        [(SideMenuViewController *)self.sideViewController.sideVC inductionElectricity].text = [NSString stringWithFormat:@"%d%%",value];
         float wendu = BUILD_UINT16(byte[12],byte[11]) * .1;
         float dianya = BUILD_UINT16(byte[10],byte[9]) * .1;
-        custombike.vehicleConfigurationView.bikeVoltageLabel.text =[NSString stringWithFormat:@"%dv",(int)dianya];
-        custombike.vehicleConfigurationView.bikeTemperatureLabel.text = [NSString stringWithFormat:@"%d°",(int)wendu];
-        
+        custombike.bikeHeadView.tempureView.displayLab.text = [NSString stringWithFormat:@"%d°",(int)wendu];
+        custombike.bikeHeadView.voltageView.displayLab.text = [NSString stringWithFormat:@"%dv",(int)dianya];
         //[self setTextColor:self.biketemperature FontNumber:[UIFont systemFontOfSize:11] AndRange:NSMakeRange(self.biketemperature.text.length - 2, 2) AndColor:[QFTools colorWithHexString:@"#ffffff"]];
         
         //[self setTextColor:self.voltageLab FontNumber:[UIFont systemFontOfSize:11] AndRange:NSMakeRange(self.voltageLab.text.length - 1, 1) AndColor:[QFTools colorWithHexString:@"#ffffff"]];
@@ -1474,7 +1472,7 @@
             
             if (custombike.bikeHeadView.haveGPS) {
                 custombike.bikeHeadView.bikeStateImg.image = [UIImage imageNamed:@"riding_gps"];
-                
+                custombike.bikeHeadView.bikeBleLab.text = @"骑行中";
             }else{
                 custombike.vehicleControlView.bikeLockImge.image = [UIImage imageNamed:@"riding_no_gps"];
                 custombike.vehicleControlView.bikeLockLabel.text = @"骑行中";
@@ -1484,7 +1482,7 @@
         
             if (custombike.bikeHeadView.haveGPS) {
                 custombike.bikeHeadView.bikeStateImg.image = [UIImage imageNamed:@"lock_gps"];
-                
+                custombike.bikeHeadView.bikeBleLab.text = @"已上锁";
             }else{
                 custombike.vehicleControlView.bikeLockImge.image = [UIImage imageNamed:@"lock"];
                 custombike.vehicleControlView.bikeLockLabel.text = @"已上锁";
@@ -1493,7 +1491,7 @@
         
             if (custombike.bikeHeadView.haveGPS) {
                 custombike.bikeHeadView.bikeStateImg.image = [UIImage imageNamed:@"unlock_gps"];
-                
+                custombike.bikeHeadView.bikeBleLab.text = @"已解锁";
             }else{
                 custombike.vehicleControlView.bikeLockImge.image = [UIImage imageNamed:@"unlock"];
                 custombike.vehicleControlView.bikeLockLabel.text = @"已解锁";
@@ -1581,10 +1579,12 @@
                 if (custombike.haveGPS) {
                     custombike.vehicleConfigurationView.bikeTestLabel.text = @"未连接";
                     custombike.vehicleConfigurationView.bikeTestLabel.textColor = [UIColor redColor];
+                    custombike.vehicleConfigurationView.bikeTestImge.image = [UIImage imageNamed:@"bike_ble_disconnect"];
                 }else{
                     
                     custombike.vehicleControlView.bikeIsConnectLabel.text = @"未连接";
                     custombike.vehicleControlView.bikeIsConnectLabel.textColor = [UIColor redColor];
+                    custombike.vehicleControlView.bikeBLEImage.image = [UIImage imageNamed:@"bike_ble_disconnect"];
                 }
             });
             
@@ -1596,10 +1596,12 @@
                 
                 custombike.vehicleConfigurationView.bikeTestLabel.text = @"车辆体检";
                 custombike.vehicleConfigurationView.bikeTestLabel.textColor = [UIColor blackColor];
+                custombike.vehicleConfigurationView.bikeTestImge.image = [UIImage imageNamed:@"vehicle_physical_examination"];
             }else{
                 
                 custombike.vehicleControlView.bikeIsConnectLabel.text = @"已连接";
                 custombike.vehicleControlView.bikeIsConnectLabel.textColor = [QFTools colorWithHexString:MainColor];
+                custombike.vehicleControlView.bikeBLEImage.image = [UIImage imageNamed:@"bike_ble_connect"];
             }
             custombike.vehicleConfigurationView.bikeTestImge.image = [UIImage imageNamed:@"vehicle_physical_examination"];
         }

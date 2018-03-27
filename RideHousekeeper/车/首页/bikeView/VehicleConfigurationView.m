@@ -29,42 +29,28 @@
 
 -(void)setupView{
     float imageWith = self.width/3;
-    float imageY = self.height*.4 - 32;
-    self.bikeTestImge.frame = CGRectMake(imageWith/2 - 20,imageY , 40, 40);
+    float imageY = self.height*.15;
+    float imgeSize = self.height *.4;
+    self.bikeTestImge.frame = CGRectMake(imageWith/2 - imgeSize/2,imageY , imgeSize, imgeSize);
     [self addSubview:self.bikeTestImge];
     
-    self.bikeTestLabel.frame = CGRectMake(0, CGRectGetMaxY(self.bikeTestImge.frame)+ self.height *.15, imageWith, 15);
+    self.bikeTestLabel.frame = CGRectMake(0, self.height*.85 - 15, imageWith, 15);
     self.bikeTestLabel.textAlignment = NSTextAlignmentCenter;
     [self addSubview:self.bikeTestLabel];
     
-    self.bikeTemperatureLabel.frame = CGRectMake(imageWith/2 - 30, CGRectGetMaxY(self.bikeTestLabel.frame)+self.height *0.05, 30, 10);
-    [self addSubview:self.bikeTemperatureLabel];
-    
-    self.bikeVoltageLabel.frame = CGRectMake(imageWith/2, self.bikeTemperatureLabel.y, 30, 10);
-    self.bikeVoltageLabel.textAlignment = NSTextAlignmentRight;
-    [self addSubview:self.bikeVoltageLabel];
-    
-    self.bikeSetUpImge.frame = CGRectMake(imageWith+imageWith/2 - 20, self.bikeTestImge.y, 40, 40);
+    self.bikeSetUpImge.frame = CGRectMake(imageWith+imageWith/2 - imgeSize/2, self.bikeTestImge.y, imgeSize, imgeSize);
     [self addSubview:self.bikeSetUpImge];
     
-    self.bikeSetUpLabel.frame = CGRectMake(imageWith, self.bikeTestLabel.y, imageWith, 10);
+    self.bikeSetUpLabel.frame = CGRectMake(imageWith, self.bikeTestLabel.y, imageWith, 15);
     self.bikeSetUpLabel.textAlignment = NSTextAlignmentCenter;
     [self addSubview:self.bikeSetUpLabel];
     
-    self.bikeSetUpDescribeLabel.frame  = CGRectMake(imageWith, self.bikeTemperatureLabel.y, imageWith, 10);
-    self.bikeSetUpDescribeLabel.textAlignment = NSTextAlignmentCenter;
-    [self addSubview:self.bikeSetUpDescribeLabel];
-    
-    self.bikePartsManageImge.frame = CGRectMake(imageWith*2+imageWith/2 - 20, self.bikeTestImge.y, 40, 40);
+    self.bikePartsManageImge.frame = CGRectMake(imageWith*2+imageWith/2 - imgeSize/2, self.bikeTestImge.y, imgeSize, imgeSize);
     [self addSubview:self.bikePartsManageImge];
     
-    self.bikePartsManageLabel.frame = CGRectMake(imageWith*2, self.bikeTestLabel.y, imageWith, 10);
+    self.bikePartsManageLabel.frame = CGRectMake(imageWith*2, self.bikeTestLabel.y, imageWith, 15);
     self.bikePartsManageLabel.textAlignment = NSTextAlignmentCenter;
     [self addSubview:self.bikePartsManageLabel];
-    
-    self.bikePartsManagDescribeLabel.frame = CGRectMake(imageWith*2, self.bikeTemperatureLabel.y, imageWith, 10);
-    self.bikePartsManagDescribeLabel.textAlignment = NSTextAlignmentCenter;
-    [self addSubview:self.bikePartsManagDescribeLabel];
     
     [self setupMaskView];
     
@@ -88,26 +74,6 @@
     return _bikeTestLabel;
 }
 
--(UILabel *)bikeTemperatureLabel{
-    
-    if (!_bikeTemperatureLabel) {
-        _bikeTemperatureLabel = [UILabel new];
-        _bikeTemperatureLabel.font = [UIFont systemFontOfSize:10];
-        _bikeTemperatureLabel.textColor = [QFTools colorWithHexString:@"#666666"];
-    }
-    return _bikeTemperatureLabel;
-}
-
--(UILabel *)bikeVoltageLabel{
-    
-    if (!_bikeVoltageLabel) {
-        _bikeVoltageLabel = [UILabel new];
-        _bikeVoltageLabel.font = [UIFont systemFontOfSize:10];
-        _bikeVoltageLabel.textColor = [QFTools colorWithHexString:@"#666666"];
-    }
-    return _bikeVoltageLabel;
-}
-
 -(UIImageView *)bikeSetUpImge{
     
     if (!_bikeSetUpImge) {
@@ -126,15 +92,7 @@
     return _bikeSetUpLabel;
 }
 
--(UILabel *)bikeSetUpDescribeLabel{
-    
-    if (!_bikeSetUpDescribeLabel) {
-        _bikeSetUpDescribeLabel = [UILabel new];
-        _bikeSetUpDescribeLabel.font = [UIFont systemFontOfSize:10];
-        _bikeSetUpDescribeLabel.textColor = [QFTools colorWithHexString:@"#666666"];
-    }
-    return _bikeSetUpDescribeLabel;
-}
+
 
 -(UIImageView *)bikePartsManageImge{
     
@@ -155,15 +113,6 @@
     return _bikePartsManageLabel;
 }
 
--(UILabel *)bikePartsManagDescribeLabel{
-    
-    if (!_bikePartsManagDescribeLabel) {
-        _bikePartsManagDescribeLabel = [UILabel new];
-        _bikePartsManagDescribeLabel.font = [UIFont systemFontOfSize:10];
-        _bikePartsManagDescribeLabel.textColor = [QFTools colorWithHexString:@"#666666"];
-    }
-    return _bikePartsManagDescribeLabel;
-}
 
 -(UIView *)clickView{
     
@@ -228,48 +177,38 @@
     float imageWith = self.width/3;
     
     if (haveGPS) {
-        float imageY = self.height*.43 - 25;
-        self.bikeTestImge.frame = CGRectMake(imageWith/2 - 15, imageY, 30, 30);
         
-        self.bikeTestLabel.frame = CGRectMake(0, CGRectGetMaxY(_bikeTestImge.frame)+ self.height *.07, imageWith, 10);
+        float imageY = self.height*.1;
+        float imgeSize = self.height *.5;
+        self.bikeTestImge.frame = CGRectMake(imageWith/2 - imgeSize/2, imageY, imgeSize, imgeSize);
         
-        self.bikeTemperatureLabel.frame = CGRectMake(imageWith/2 - 30, CGRectGetMaxY(_bikeTestLabel.frame)+self.height *0.07, 30, 10);
+        self.bikeTestLabel.frame = CGRectMake(0, self.height*.9 - 15, imageWith, 15);
         
-        self.bikeVoltageLabel.frame = CGRectMake(imageWith/2, self.bikeTemperatureLabel.y, 30, 10);
+        self.bikeSetUpImge.frame = CGRectMake(imageWith+imageWith/2 - imgeSize/2, self.bikeTestImge.y, imgeSize, imgeSize);
         
-        self.bikeSetUpImge.frame = CGRectMake(imageWith+imageWith/2 - 15, self.bikeTestImge.y, 30, 30);
+        self.bikeSetUpLabel.frame = CGRectMake(imageWith, self.bikeTestLabel.y, imageWith, 15);
+
+        self.bikePartsManageImge.frame = CGRectMake(imageWith*2+imageWith/2 - imgeSize/2, self.bikeTestImge.y, imgeSize, imgeSize);
         
-        self.bikeSetUpLabel.frame = CGRectMake(imageWith, self.bikeTestLabel.y, imageWith, 10);
+        self.bikePartsManageLabel.frame = CGRectMake(imageWith*2, self.bikeTestLabel.y, imageWith, 15);
         
-        self.bikeSetUpDescribeLabel.frame  = CGRectMake(imageWith, self.bikeTemperatureLabel.y, imageWith, 10);
-        
-        self.bikePartsManageImge.frame = CGRectMake(imageWith*2+imageWith/2 - 15, self.bikeTestImge.y, 30, 30);
-        
-        self.bikePartsManageLabel.frame = CGRectMake(imageWith*2, self.bikeTestLabel.y, imageWith, 10);
-        
-        self.bikePartsManagDescribeLabel.frame = CGRectMake(imageWith*2, self.bikeTemperatureLabel.y, imageWith, 10);
         [self setupMaskView];
     }else{
-        float imageY = self.height*.4 - 32;
-        self.bikeTestImge.frame = CGRectMake(imageWith/2 - 20, imageY, 40, 40);
         
-        self.bikeTestLabel.frame = CGRectMake(0, CGRectGetMaxY(self.bikeTestImge.frame)+ self.height *.15, imageWith, 10);
+        float imageY = self.height*.15;
+        float imgeSize = self.height *.4;
+        self.bikeTestImge.frame = CGRectMake(imageWith/2 - imgeSize/2, imageY, imgeSize, imgeSize);
         
-        self.bikeTemperatureLabel.frame = CGRectMake(imageWith/2 - 30, CGRectGetMaxY(self.bikeTestLabel.frame)+self.height *0.05, 30, 10);
+        self.bikeTestLabel.frame = CGRectMake(0, self.height *.85 - 15, imageWith, 15);
         
-        self.bikeVoltageLabel.frame = CGRectMake(imageWith/2, self.bikeTemperatureLabel.y, 30, 10);
+        self.bikeSetUpImge.frame = CGRectMake(imageWith+imageWith/2 - imgeSize/2, self.bikeTestImge.y, imgeSize, imgeSize);
         
-        self.bikeSetUpImge.frame = CGRectMake(imageWith+imageWith/2 - 20, self.bikeTestImge.y, 40, 40);
+        self.bikeSetUpLabel.frame = CGRectMake(imageWith, self.bikeTestLabel.y, imageWith, 15);
         
-        self.bikeSetUpLabel.frame = CGRectMake(imageWith, self.bikeTestLabel.y, imageWith, 10);
+        self.bikePartsManageImge.frame = CGRectMake(imageWith*2+imageWith/2 - imgeSize/2, self.bikeTestImge.y, imgeSize, imgeSize);
         
-        self.bikeSetUpDescribeLabel.frame  = CGRectMake(imageWith, self.bikeTemperatureLabel.y, imageWith, 10);
+        self.bikePartsManageLabel.frame = CGRectMake(imageWith*2, self.bikeTestLabel.y, imageWith, 15);
         
-        self.bikePartsManageImge.frame = CGRectMake(imageWith*2+imageWith/2 - 20, self.bikeTestImge.y, 40, 40);
-        
-        self.bikePartsManageLabel.frame = CGRectMake(imageWith*2, self.bikeTestLabel.y, imageWith, 10);
-        
-        self.bikePartsManagDescribeLabel.frame = CGRectMake(imageWith*2, self.bikeTemperatureLabel.y, imageWith, 10);
         [self setupMaskView];
     }
     [self layoutIfNeeded];

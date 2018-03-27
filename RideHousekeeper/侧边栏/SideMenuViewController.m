@@ -60,13 +60,13 @@
     
     [NSNOTIC_CENTER addObserver:self selector:@selector(updateUserIcon:) name:@"update_user_icon" object:nil];
     
-    
     _inductionElectricity = [[UILabel alloc] initWithFrame:CGRectMake(ScreenWidth*.75  - 100, button.y - 20, 100, 20)];
     _inductionElectricity.textColor = [QFTools colorWithHexString:@"#0043b3"];
-    _inductionElectricity.text = @"90%";
+    _inductionElectricity.text = @"0%";
     _inductionElectricity.font = [UIFont systemFontOfSize:17];
     _inductionElectricity.textAlignment = NSTextAlignmentCenter;
     [self.view addSubview:_inductionElectricity];
+    _inductionElectricity.hidden = YES;
     
     _inductionImg = [[UIImageView alloc] initWithFrame:CGRectMake(_inductionElectricity.x, button.y+4, 25, 22)];
     _inductionImg.image = [UIImage imageNamed:@"induckey_break"];

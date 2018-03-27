@@ -31,23 +31,19 @@
     
     self.bikeHeadView.bikeBrandImg.image = [UIImage imageNamed:@"icon_default_model"];
     self.bikeHeadView.bikeLogo.image = [UIImage imageNamed:@"brand_logo"];
-    self.bikeHeadView.bikeStateImg.image = [UIImage imageNamed:@"lock_gps"];
+    //self.bikeHeadView.bikeStateImg.image = [UIImage imageNamed:@"lock_gps"];
     [self addSubview:self.bikeHeadView];
     self.vehicleControlView.bikeLockImge.image = [UIImage imageNamed:@"lock"];
     self.vehicleControlView.bikeLockLabel.text = @"已关锁";
-    self.vehicleControlView.bikeBLEImage.image = [UIImage imageNamed:@"vehicle_physical_examination_icon"];
+    self.vehicleControlView.bikeBLEImage.image = [UIImage imageNamed:@"bike_ble_disconnect"];
     self.vehicleControlView.bikeIsConnectLabel.text = @"未连接";
     [self addSubview:self.vehicleControlView];
     self.vehicleConfigurationView.bikeTestImge.image = [UIImage imageNamed:@"vehicle_physical_examination"];
     self.vehicleConfigurationView.bikeTestLabel.text = @"车辆体检";
-    self.vehicleConfigurationView.bikeTemperatureLabel.text = @"温度";
-    self.vehicleConfigurationView.bikeVoltageLabel.text = @"电压";
     self.vehicleConfigurationView.bikeSetUpImge.image = [UIImage imageNamed:@"vehicle_setting"];
     self.vehicleConfigurationView.bikeSetUpLabel.text = @"车辆设置";
-    self.vehicleConfigurationView.bikeSetUpDescribeLabel.text = @"智能电动车";
     self.vehicleConfigurationView.bikePartsManageImge.image = [UIImage imageNamed:@"spare_parts_management"];
     self.vehicleConfigurationView.bikePartsManageLabel.text = @"配件管理";
-    self.vehicleConfigurationView.bikePartsManagDescribeLabel.text = @"设备随心配置";
     [self addSubview:self.vehicleConfigurationView];
     [self addSubview:self.vehicleStateView];
     
@@ -120,7 +116,9 @@
         [self addSubview:self.vehiclePositioningMapView];
         float heighty = ( ScreenHeight * .805 - navHeight - CGRectGetMaxY(self.vehiclePositioningMapView.frame) - ScreenHeight *.128)/2;
         self.vehicleConfigurationView.frame = CGRectMake(15,  CGRectGetMaxY(self.vehiclePositioningMapView.frame) + heighty, ScreenWidth - 30, ScreenHeight *.128);
-        self.vehicleConfigurationView.bikeTestImge.image = [UIImage imageNamed:@"vehicle_physical_examination_icon"];
+        self.vehicleConfigurationView.bikeTestImge.image = [UIImage imageNamed:@"bike_ble_disconnect"];
+        self.bikeHeadView.bikeStateImg.image = [UIImage imageNamed:@"lock_gps"];
+        self.bikeHeadView.bikeBleLab.text = @"已上锁";
         self.vehicleConfigurationView.bikeTestLabel.text = @"未连接";
         self.vehicleConfigurationView.bikeTestLabel.textColor = [UIColor redColor];
         [self.vehicleControlView removeFromSuperview];
@@ -134,7 +132,7 @@
         self.vehicleControlView.frame = CGRectMake( 0, CGRectGetMaxY(self.bikeHeadView.frame)+2, ScreenWidth, ScreenHeight *.09);
         self.vehicleControlView.bikeBLEImage.image = [UIImage imageNamed:@"lock"];
         self.vehicleControlView.bikeLockLabel.text = @"已关锁";
-        self.vehicleControlView.bikeLockImge.image = [UIImage imageNamed:@"vehicle_physical_examination_icon"];
+        self.vehicleControlView.bikeLockImge.image = [UIImage imageNamed:@"bike_ble_disconnect"];
         self.vehicleControlView.bikeIsConnectLabel.text = @"未连接";
         [self addSubview:self.vehicleControlView];
         float heighty = ( ScreenHeight * .805 - navHeight - CGRectGetMaxY(self.vehicleControlView.frame) - ScreenHeight *.168)/2;
@@ -154,14 +152,14 @@
     if (self.haveGPS) {
         self.vehicleConfigurationView.bikeTestLabel.text = @"未连接";
         self.vehicleConfigurationView.bikeTestLabel.textColor = [UIColor redColor];
-        self.vehicleConfigurationView.bikeTestImge.image = [UIImage imageNamed:@"vehicle_physical_examination_icon"];
+        self.vehicleConfigurationView.bikeTestImge.image = [UIImage imageNamed:@"bike_ble_disconnect"];
     }else{
         self.vehicleControlView.bikeIsConnectLabel.text = @"未连接";
         self.vehicleControlView.bikeIsConnectLabel.textColor = [UIColor redColor];
-        self.vehicleConfigurationView.bikeTestImge.image = [UIImage imageNamed:@"vehicle_physical_examination"];
+        self.vehicleControlView.bikeBLEImage.image = [UIImage imageNamed:@"bike_ble_disconnect"];
     }
-    self.vehicleConfigurationView.bikeTemperatureLabel.text = @"温度";
-    self.vehicleConfigurationView.bikeVoltageLabel.text = @"电压";
+    self.bikeHeadView.tempureView.displayLab.text = @"温度";
+    self.bikeHeadView.voltageView.displayLab.text = @"电压";
 }
 
 -(void)dealloc{

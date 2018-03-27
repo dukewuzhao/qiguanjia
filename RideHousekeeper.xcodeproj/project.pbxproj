@@ -350,7 +350,6 @@
 		18750344204CFC670075DF3C /* lock@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1875033F204CFC670075DF3C /* lock@2x.png */; };
 		18750345204CFC670075DF3C /* vehicle_physical_examination@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18750340204CFC670075DF3C /* vehicle_physical_examination@2x.png */; };
 		18750346204CFC670075DF3C /* vehicle_setting@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18750341204CFC670075DF3C /* vehicle_setting@2x.png */; };
-		18750348204CFCDE0075DF3C /* vehicle_physical_examination_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18750347204CFCDE0075DF3C /* vehicle_physical_examination_icon@2x.png */; };
 		1877FE511D37510C00A31AD5 /* SubmitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1877FE501D37510C00A31AD5 /* SubmitViewController.m */; };
 		1877FE541D3789EB00A31AD5 /* AccessoriesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1877FE531D3789EB00A31AD5 /* AccessoriesViewController.m */; };
 		1877FEBF1D37C6D000A31AD5 /* TwoDimensionalCodecanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1877FEBD1D37C6D000A31AD5 /* TwoDimensionalCodecanViewController.m */; };
@@ -520,6 +519,21 @@
 		18E2A5851EF3B09200EB7851 /* testing.gif in Resources */ = {isa = PBXBuildFile; fileRef = 18E2A57E1EF3B09200EB7851 /* testing.gif */; };
 		18E2A58B1EF3B13400EB7851 /* Clean.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E2A58A1EF3B13400EB7851 /* Clean.m */; };
 		18EAE7481F4F02BF00BAAD01 /* MyGarageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EAE7471F4F02BE00BAAD01 /* MyGarageViewController.m */; };
+		18EAEEE02069E6360009B5A6 /* InformationHintsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EAEEDF2069E6360009B5A6 /* InformationHintsView.m */; };
+		18EAEEE22069EBF00009B5A6 /* bike_fault@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18EAEEE12069EBF00009B5A6 /* bike_fault@2x.png */; };
+		18EAEEE52069EDA70009B5A6 /* bike_ble_disconnect@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18EAEEE32069EDA70009B5A6 /* bike_ble_disconnect@2x.png */; };
+		18EAEEE62069EDA70009B5A6 /* bike_ble_connect@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18EAEEE42069EDA70009B5A6 /* bike_ble_connect@2x.png */; };
+		18EAEEEA2069EDEA0009B5A6 /* bike_temperature@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18EAEEE72069EDE90009B5A6 /* bike_temperature@2x.png */; };
+		18EAEEEB2069EDEA0009B5A6 /* bike_voltage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18EAEEE82069EDE90009B5A6 /* bike_voltage@2x.png */; };
+		18EAEEEC2069EDEA0009B5A6 /* suspension_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18EAEEE92069EDEA0009B5A6 /* suspension_bg@2x.png */; };
+		18EAEEF02069EECF0009B5A6 /* bike_temperature@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18EAEEED2069EECE0009B5A6 /* bike_temperature@2x.png */; };
+		18EAEEF12069EECF0009B5A6 /* bike_voltage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18EAEEEE2069EECF0009B5A6 /* bike_voltage@2x.png */; };
+		18EAEEF22069EECF0009B5A6 /* suspension_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18EAEEEF2069EECF0009B5A6 /* suspension_bg@2x.png */; };
+		18EAEEF6206A335D0009B5A6 /* GPSServiceTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EAEEF5206A335D0009B5A6 /* GPSServiceTableViewCell.m */; };
+		18EAEEF9206A44430009B5A6 /* gps_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18EAEEF7206A44430009B5A6 /* gps_bg@2x.png */; };
+		18EAEEFA206A44430009B5A6 /* GPS_user_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18EAEEF8206A44430009B5A6 /* GPS_user_icon@2x.png */; };
+		18EAEF03206A49630009B5A6 /* GPSDetailTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EAEF02206A49630009B5A6 /* GPSDetailTableViewCell.m */; };
+		18EAEF06206A4F8E0009B5A6 /* GPSDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EAEF05206A4F8E0009B5A6 /* GPSDetailViewController.m */; };
 		18EE5C891FF4D23900F77A73 /* GroupTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EE5C881FF4D23900F77A73 /* GroupTableViewCell.m */; };
 		18EE5C8C1FF4DE4200F77A73 /* PlainTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EE5C8B1FF4DE4200F77A73 /* PlainTableViewCell.m */; };
 		18F1444C1F566D37008AB8C8 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18F144321F566D37008AB8C8 /* Info.plist */; };
@@ -1104,7 +1118,6 @@
 		1875033F204CFC670075DF3C /* lock@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lock@2x.png"; sourceTree = "<group>"; };
 		18750340204CFC670075DF3C /* vehicle_physical_examination@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "vehicle_physical_examination@2x.png"; sourceTree = "<group>"; };
 		18750341204CFC670075DF3C /* vehicle_setting@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "vehicle_setting@2x.png"; sourceTree = "<group>"; };
-		18750347204CFCDE0075DF3C /* vehicle_physical_examination_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "vehicle_physical_examination_icon@2x.png"; sourceTree = "<group>"; };
 		1877FE4F1D37510C00A31AD5 /* SubmitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubmitViewController.h; sourceTree = "<group>"; };
 		1877FE501D37510C00A31AD5 /* SubmitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubmitViewController.m; sourceTree = "<group>"; };
 		1877FE521D3789EB00A31AD5 /* AccessoriesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccessoriesViewController.h; sourceTree = "<group>"; };
@@ -1362,6 +1375,25 @@
 		18E2A58A1EF3B13400EB7851 /* Clean.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Clean.m; sourceTree = "<group>"; };
 		18EAE7461F4F02BE00BAAD01 /* MyGarageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyGarageViewController.h; sourceTree = "<group>"; };
 		18EAE7471F4F02BE00BAAD01 /* MyGarageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyGarageViewController.m; sourceTree = "<group>"; };
+		18EAEEDE2069E6360009B5A6 /* InformationHintsView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InformationHintsView.h; sourceTree = "<group>"; };
+		18EAEEDF2069E6360009B5A6 /* InformationHintsView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InformationHintsView.m; sourceTree = "<group>"; };
+		18EAEEE12069EBF00009B5A6 /* bike_fault@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bike_fault@2x.png"; sourceTree = "<group>"; };
+		18EAEEE32069EDA70009B5A6 /* bike_ble_disconnect@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bike_ble_disconnect@2x.png"; sourceTree = "<group>"; };
+		18EAEEE42069EDA70009B5A6 /* bike_ble_connect@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bike_ble_connect@2x.png"; sourceTree = "<group>"; };
+		18EAEEE72069EDE90009B5A6 /* bike_temperature@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bike_temperature@2x.png"; sourceTree = "<group>"; };
+		18EAEEE82069EDE90009B5A6 /* bike_voltage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bike_voltage@2x.png"; sourceTree = "<group>"; };
+		18EAEEE92069EDEA0009B5A6 /* suspension_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "suspension_bg@2x.png"; sourceTree = "<group>"; };
+		18EAEEED2069EECE0009B5A6 /* bike_temperature@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bike_temperature@2x.png"; path = "../../../../../首页添加的切图/gps首页更变添加的图标切图/bike_temperature@2x.png"; sourceTree = "<group>"; };
+		18EAEEEE2069EECF0009B5A6 /* bike_voltage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bike_voltage@2x.png"; path = "../../../../../首页添加的切图/gps首页更变添加的图标切图/bike_voltage@2x.png"; sourceTree = "<group>"; };
+		18EAEEEF2069EECF0009B5A6 /* suspension_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "suspension_bg@2x.png"; path = "../../../../../首页添加的切图/gps首页更变添加的图标切图/suspension_bg@2x.png"; sourceTree = "<group>"; };
+		18EAEEF4206A335D0009B5A6 /* GPSServiceTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GPSServiceTableViewCell.h; sourceTree = "<group>"; };
+		18EAEEF5206A335D0009B5A6 /* GPSServiceTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPSServiceTableViewCell.m; sourceTree = "<group>"; };
+		18EAEEF7206A44430009B5A6 /* gps_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gps_bg@2x.png"; sourceTree = "<group>"; };
+		18EAEEF8206A44430009B5A6 /* GPS_user_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GPS_user_icon@2x.png"; sourceTree = "<group>"; };
+		18EAEF01206A49630009B5A6 /* GPSDetailTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GPSDetailTableViewCell.h; sourceTree = "<group>"; };
+		18EAEF02206A49630009B5A6 /* GPSDetailTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPSDetailTableViewCell.m; sourceTree = "<group>"; };
+		18EAEF04206A4F8E0009B5A6 /* GPSDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GPSDetailViewController.h; sourceTree = "<group>"; };
+		18EAEF05206A4F8E0009B5A6 /* GPSDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPSDetailViewController.m; sourceTree = "<group>"; };
 		18EE5C871FF4D23900F77A73 /* GroupTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GroupTableViewCell.h; sourceTree = "<group>"; };
 		18EE5C881FF4D23900F77A73 /* GroupTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GroupTableViewCell.m; sourceTree = "<group>"; };
 		18EE5C8A1FF4DE4200F77A73 /* PlainTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlainTableViewCell.h; sourceTree = "<group>"; };
@@ -1727,6 +1759,8 @@
 			isa = PBXGroup;
 			children = (
 				18D21D69205B9F56005ECE2E /* 消息 */,
+				18EAEEF7206A44430009B5A6 /* gps_bg@2x.png */,
+				18EAEEF8206A44430009B5A6 /* GPS_user_icon@2x.png */,
 				1824E8F3205A488F00402C5C /* no_bikeGPS@2x.png */,
 				1824E8F4205A488F00402C5C /* no_bikemessage@2x.png */,
 				18B8DA6A2057B9B400729B94 /* garage_selection@2x.png */,
@@ -1947,6 +1981,15 @@
 		181266D120118ED40053A8F4 /* 首页 */ = {
 			isa = PBXGroup;
 			children = (
+				18EAEEE72069EDE90009B5A6 /* bike_temperature@2x.png */,
+				18EAEEE82069EDE90009B5A6 /* bike_voltage@2x.png */,
+				18EAEEE92069EDEA0009B5A6 /* suspension_bg@2x.png */,
+				18EAEEED2069EECE0009B5A6 /* bike_temperature@2x.png */,
+				18EAEEEE2069EECF0009B5A6 /* bike_voltage@2x.png */,
+				18EAEEEF2069EECF0009B5A6 /* suspension_bg@2x.png */,
+				18EAEEE42069EDA70009B5A6 /* bike_ble_connect@2x.png */,
+				18EAEEE32069EDA70009B5A6 /* bike_ble_disconnect@2x.png */,
+				18EAEEE12069EBF00009B5A6 /* bike_fault@2x.png */,
 				1817F27B20620D1900AE81E0 /* bike_select@2x.png */,
 				1817F27A20620D1900AE81E0 /* bike_unselect@2x.png */,
 				181266D220118ED40053A8F4 /* add@2x.png */,
@@ -1978,7 +2021,6 @@
 				181266EC20118ED40053A8F4 /* riding_gps@2x.png */,
 				181266ED20118ED40053A8F4 /* saomiao@2x.png */,
 				181266EE20118ED40053A8F4 /* icon_bike_seat@2x.png */,
-				18750347204CFCDE0075DF3C /* vehicle_physical_examination_icon@2x.png */,
 				187C77B5205106FA0083088C /* menu_addbike@2x.png */,
 				187C77B6205106FA0083088C /* menu_bindingUser@2x.png */,
 				187C77B7205106FB0083088C /* menu_scan@2x.png */,
@@ -1999,6 +2041,8 @@
 				1800A35020450DAF00AA836E /* VehiclePositioningMapView.mm */,
 				1817668B2047FD7C0098D93A /* BikeHeadView.h */,
 				1817668C2047FD7C0098D93A /* BikeHeadView.m */,
+				18EAEEDE2069E6360009B5A6 /* InformationHintsView.h */,
+				18EAEEDF2069E6360009B5A6 /* InformationHintsView.m */,
 			);
 			path = bikeView;
 			sourceTree = "<group>";
@@ -2092,8 +2136,8 @@
 		1824E8EF205A450D00402C5C /* gps服务 */ = {
 			isa = PBXGroup;
 			children = (
-				1824E8F0205A452C00402C5C /* GPSServicesViewController.h */,
-				1824E8F1205A452C00402C5C /* GPSServicesViewController.m */,
+				18EAEEFB206A48AE0009B5A6 /* GPS列表 */,
+				18EAEEFC206A48C80009B5A6 /* GPS详情页 */,
 			);
 			path = "gps服务";
 			sourceTree = "<group>";
@@ -3184,6 +3228,44 @@
 			name = ThirdLib;
 			sourceTree = "<group>";
 		};
+		18EAEEF3206A32AE0009B5A6 /* GPSServiceTableviewCell */ = {
+			isa = PBXGroup;
+			children = (
+				18EAEEF4206A335D0009B5A6 /* GPSServiceTableViewCell.h */,
+				18EAEEF5206A335D0009B5A6 /* GPSServiceTableViewCell.m */,
+			);
+			path = GPSServiceTableviewCell;
+			sourceTree = "<group>";
+		};
+		18EAEEFB206A48AE0009B5A6 /* GPS列表 */ = {
+			isa = PBXGroup;
+			children = (
+				18EAEEF3206A32AE0009B5A6 /* GPSServiceTableviewCell */,
+				1824E8F0205A452C00402C5C /* GPSServicesViewController.h */,
+				1824E8F1205A452C00402C5C /* GPSServicesViewController.m */,
+			);
+			path = "GPS列表";
+			sourceTree = "<group>";
+		};
+		18EAEEFC206A48C80009B5A6 /* GPS详情页 */ = {
+			isa = PBXGroup;
+			children = (
+				18EAEF00206A49260009B5A6 /* GPSDetailViewCell */,
+				18EAEF04206A4F8E0009B5A6 /* GPSDetailViewController.h */,
+				18EAEF05206A4F8E0009B5A6 /* GPSDetailViewController.m */,
+			);
+			path = "GPS详情页";
+			sourceTree = "<group>";
+		};
+		18EAEF00206A49260009B5A6 /* GPSDetailViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				18EAEF01206A49630009B5A6 /* GPSDetailTableViewCell.h */,
+				18EAEF02206A49630009B5A6 /* GPSDetailTableViewCell.m */,
+			);
+			path = GPSDetailViewCell;
+			sourceTree = "<group>";
+		};
 		18F144311F566D37008AB8C8 /* Masonry */ = {
 			isa = PBXGroup;
 			children = (
@@ -3727,6 +3809,7 @@
 				1812670F20118ED40053A8F4 /* location@2x.png in Resources */,
 				1812674720118ED40053A8F4 /* electric1@2x.png in Resources */,
 				1812676F20118ED40053A8F4 /* binding_mute_key@2x.png in Resources */,
+				18EAEEF02069EECF0009B5A6 /* bike_temperature@2x.png in Resources */,
 				1812677B20118ED40053A8F4 /* del@2x.png in Resources */,
 				1812673520118ED40053A8F4 /* pop_bikeview@2x.png in Resources */,
 				18B8DA53205774D400729B94 /* yangsha.png in Resources */,
@@ -3734,6 +3817,7 @@
 				18750346204CFC670075DF3C /* vehicle_setting@2x.png in Resources */,
 				1812676620118ED40053A8F4 /* slideimage@2x.png in Resources */,
 				1824E8DF205A160000402C5C /* map_zoom@2x.png in Resources */,
+				18EAEEEB2069EDEA0009B5A6 /* bike_voltage@2x.png in Resources */,
 				18B8DA3F205774D400729B94 /* dabaoyuzhuantedabaoyu.png in Resources */,
 				18B8DA862057CC9A00729B94 /* gps_connecting@2x.png in Resources */,
 				1812676320118ED40053A8F4 /* min@2x.png in Resources */,
@@ -3747,9 +3831,11 @@
 				18F1444C1F566D37008AB8C8 /* Info.plist in Resources */,
 				1812671B20118ED40053A8F4 /* man@2x.png in Resources */,
 				1812675A20118ED40053A8F4 /* graypoint@2x.png in Resources */,
+				18EAEEE62069EDA70009B5A6 /* bike_ble_connect@2x.png in Resources */,
 				185FD0E91F53E83E00B31E70 /* qgjnew2.jpg in Resources */,
 				1812673920118ED40053A8F4 /* controller.png in Resources */,
 				1812679D20118ED40053A8F4 /* riding_gps@2x.png in Resources */,
+				18EAEEE22069EBF00009B5A6 /* bike_fault@2x.png in Resources */,
 				18E2A5851EF3B09200EB7851 /* testing.gif in Resources */,
 				1812670120118ED40053A8F4 /* user_icon_bg@2x.png in Resources */,
 				1812673620118ED40053A8F4 /* prompt_click@2x.png in Resources */,
@@ -3779,7 +3865,6 @@
 				1812675D20118ED40053A8F4 /* icon_p3@2x.png in Resources */,
 				1812679B20118ED40053A8F4 /* open_slide_menu@2x.png in Resources */,
 				1812679520118ED40053A8F4 /* logo@2x.png in Resources */,
-				18750348204CFCDE0075DF3C /* vehicle_physical_examination_icon@2x.png in Resources */,
 				1812671720118ED40053A8F4 /* fingerprint_step_two@2x.png in Resources */,
 				181266F320118ED40053A8F4 /* arrow@2x.png in Resources */,
 				18B8DA832057CC9A00729B94 /* connect_server.gif in Resources */,
@@ -3835,15 +3920,19 @@
 				1812670C20118ED40053A8F4 /* icon_down@2x.png in Resources */,
 				180BD31B204E3D9B00A634E4 /* riding_no_gps@2x.png in Resources */,
 				1812671820118ED40053A8F4 /* user_fingerprint_icon@2x.png in Resources */,
+				18EAEEF9206A44430009B5A6 /* gps_bg@2x.png in Resources */,
+				18EAEEE52069EDA70009B5A6 /* bike_ble_disconnect@2x.png in Resources */,
 				18D21D6E205B9F56005ECE2E /* message_clock@2x.png in Resources */,
 				1812676920118ED40053A8F4 /* binding_find_key@2x.png in Resources */,
 				1812672520118ED40053A8F4 /* peripheral_add@2x.png in Resources */,
 				1883C6902059088D00AAFBA6 /* LXCalendarHearder.xib in Resources */,
 				1812676B20118ED40053A8F4 /* binding_find_key_ok@2x.png in Resources */,
 				18B8DA55205774D400729B94 /* yujiaxue.png in Resources */,
+				18EAEEEC2069EDEA0009B5A6 /* suspension_bg@2x.png in Resources */,
 				1812671A20118ED40053A8F4 /* icon_sex@2x.png in Resources */,
 				18B8DA47205774D400729B94 /* leizhenyu.png in Resources */,
 				1812670B20118ED40053A8F4 /* icon_car_on@2x.png in Resources */,
+				18EAEEEA2069EDEA0009B5A6 /* bike_temperature@2x.png in Resources */,
 				185F93081D758863007AF954 /* hrs_s110_7_0.hex in Resources */,
 				1812678820118ED40053A8F4 /* bike_mute_icon@2x.png in Resources */,
 				1812671520118ED40053A8F4 /* fingerprint_step_one@2x.png in Resources */,
@@ -3868,6 +3957,7 @@
 				18B8DA41205774D400729B94 /* daxuezhuanbaoxue.png in Resources */,
 				185FD0EA1F53E83E00B31E70 /* qgjnew3.jpg in Resources */,
 				1812672320118ED40053A8F4 /* bracelet_have@2x.png in Resources */,
+				18EAEEF22069EECF0009B5A6 /* suspension_bg@2x.png in Resources */,
 				9D0D04151D17A0F400A6D5CD /* Assets.xcassets in Resources */,
 				185F93061D758863007AF954 /* hrs_s110_5_0.hex in Resources */,
 				1883C6B6205916FF00AAFBA6 /* bike_notice@2x.png in Resources */,
@@ -3886,6 +3976,7 @@
 				1812677220118ED40053A8F4 /* binding_onstart_key@2x.png in Resources */,
 				1812675920118ED40053A8F4 /* default_logo@2x.png in Resources */,
 				187E2F1A1F7A57B100E76A2D /* lightSelect.png in Resources */,
+				18EAEEFA206A44430009B5A6 /* GPS_user_icon@2x.png in Resources */,
 				1812676A20118ED40053A8F4 /* binding_find_key_next@2x.png in Resources */,
 				181266FF20118ED40053A8F4 /* set_up@2x.png in Resources */,
 				18B8DA4E205774D400729B94 /* wu.png in Resources */,
@@ -3992,6 +4083,7 @@
 				1812679E20118ED40053A8F4 /* saomiao@2x.png in Resources */,
 				18FA25A51FB93F4900C4EF68 /* scanLine@2x.png in Resources */,
 				1824E8F6205A488F00402C5C /* no_bikemessage@2x.png in Resources */,
+				18EAEEF12069EECF0009B5A6 /* bike_voltage@2x.png in Resources */,
 				1812674C20118ED40053A8F4 /* rotation.png in Resources */,
 				1812670420118ED40053A8F4 /* icon_pwd_show.png in Resources */,
 				1812670320118ED40053A8F4 /* icon_car_on@2x.png in Resources */,
@@ -4097,6 +4189,7 @@
 				9D0D04B81D18131300A6D5CD /* IdeaViewController.m in Sources */,
 				185F93221D758876007AF954 /* unzip.c in Sources */,
 				9D2E8E281D1C149200D7D3CF /* PersonalViewController.m in Sources */,
+				18EAEF06206A4F8E0009B5A6 /* GPSDetailViewController.m in Sources */,
 				184336E31FF1F5FA0049B836 /* NetWorkCallBack.m in Sources */,
 				1800A35B20455E3200AA836E /* ZMNavView.m in Sources */,
 				18E082C41F16116C000AB1B5 /* FaultModel.m in Sources */,
@@ -4105,6 +4198,7 @@
 				18014B341DCAED61003D4662 /* HelpViewController.m in Sources */,
 				1822C7861F5050550063AAE6 /* ATCarouselView.m in Sources */,
 				182BA7981F4137F5001BA381 /* YYAnimatedImageView.m in Sources */,
+				18EAEEF6206A335D0009B5A6 /* GPSServiceTableViewCell.m in Sources */,
 				1806AE861DB76A2B00A47A42 /* PeripheralUUIDModel.m in Sources */,
 				9D2E8E171D1BBFEB00D7D3CF /* AFImageDownloader.m in Sources */,
 				1883C6A3205908FC00AAFBA6 /* UIColor+Expanded.m in Sources */,
@@ -4165,6 +4259,7 @@
 				9D2E8DD01D1B802400D7D3CF /* PopupView.m in Sources */,
 				18F40C571F4BD0D800738BD7 /* SideMenuViewController.m in Sources */,
 				18F40C521F4BCC3200738BD7 /* UIViewController+XYSideCategory.m in Sources */,
+				18EAEF03206A49630009B5A6 /* GPSDetailTableViewCell.m in Sources */,
 				187C77BD205109770083088C /* LrdOutputCell.m in Sources */,
 				182BA78E1F4137F5001BA381 /* YYCache.m in Sources */,
 				186A94191D6B2AE70049EB71 /* UIImage+MultiFormat.m in Sources */,
@@ -4285,6 +4380,7 @@
 				18C2AE431DD1D4690045772B /* SettingModel.m in Sources */,
 				18F1444F1F566D37008AB8C8 /* MASConstraintMaker.m in Sources */,
 				186F31371D79274D00E0C11F /* switchView.m in Sources */,
+				18EAEEE02069E6360009B5A6 /* InformationHintsView.m in Sources */,
 				9D2E8E161D1BBFEB00D7D3CF /* AFAutoPurgingImageCache.m in Sources */,
 				184336E91FF22B310049B836 /* UploadParam.m in Sources */,
 				186A940F1D6B2AE70049EB71 /* NSData+ImageContentType.m in Sources */,

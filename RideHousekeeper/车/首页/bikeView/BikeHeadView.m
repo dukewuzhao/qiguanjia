@@ -44,17 +44,29 @@
     
     self.bikeBrandImg.frame = CGRectMake(ScreenWidth*.192, ScreenHeight *.13, ScreenWidth*.616, ScreenWidth*.616*.7);
     [self addSubview:self.bikeBrandImg];
-    self.bikeStateImg.backgroundColor = [QFTools colorWithHexString:MainColor];
-    self.bikeStateImg.clipsToBounds = YES;
-    self.bikeStateImg.layer.cornerRadius = 20.f;
-    [self addSubview:self.bikeStateImg];
-    self.bikeStateImg.hidden = YES;
     
+    [self addSubview:self.tempureView];
+    
+    [self addSubview:self.voltageView];
+}
+
+-(UILabel *)bikeBleLab{
+    if (!_bikeBleLab) {
+        
+        _bikeBleLab = [[UILabel alloc] initWithFrame:CGRectMake(CGRectGetMaxX(self.bikeStateImg.frame)+5, self.bikeStateImg.centerY - 10, 50, 20)];
+        _bikeBleLab.textColor = [QFTools colorWithHexString:@"#111111"];
+        _bikeBleLab.font = [UIFont systemFontOfSize:15];
+    }
+    return  _bikeBleLab;
 }
 
 - (UIImageView *)bikeStateImg{
     if (!_bikeStateImg) {
-        _bikeStateImg = [[UIImageView alloc] initWithFrame:CGRectMake(ScreenWidth - 65, ScreenHeight *.146, 40, 40)];
+        float imgeSize = self.height *.18;
+        _bikeStateImg = [[UIImageView alloc] initWithFrame:CGRectMake(20, self.height - imgeSize - 10, imgeSize, imgeSize)];
+        _bikeStateImg.backgroundColor = [QFTools colorWithHexString:MainColor];
+        _bikeStateImg.clipsToBounds = YES;
+        _bikeStateImg.layer.cornerRadius = _bikeStateImg.width/2;
     }
     return _bikeStateImg;
 }
@@ -67,6 +79,28 @@
     return _bikeBrandImg;
 }
 
+-(InformationHintsView *)tempureView{
+    
+    if (!_tempureView) {
+        _tempureView = [[InformationHintsView alloc] initWithFrame:CGRectMake(self.width - 50, 10, 50, 30)];
+        _tempureView.layer.contents = (id)[UIImage imageNamed:@"suspension_bg"].CGImage;
+        _tempureView.displayLab.text = @"温度";
+        _tempureView.displayImg.image = [UIImage imageNamed:@"bike_temperature"];
+    }
+    return _tempureView;
+}
+
+-(InformationHintsView *)voltageView{
+    
+    if (!_voltageView) {
+        _voltageView = [[InformationHintsView alloc] initWithFrame:CGRectMake(self.width - 50, CGRectGetMaxY(self.tempureView.frame)+5, 50, 30)];
+        _voltageView.layer.contents = (id)[UIImage imageNamed:@"suspension_bg"].CGImage;
+        _voltageView.displayLab.text = @"电压";
+        _voltageView.displayImg.image = [UIImage imageNamed:@"bike_voltage"];
+    }
+    return _voltageView;
+}
+
 - (void)setHaveGPS:(BOOL)haveGPS{
     _haveGPS = haveGPS;
     if (haveGPS) {
@@ -75,12 +109,19 @@
         //gradientLayer.locations = @[[NSNumber numberWithFloat:0.0], [NSNumber numberWithFloat:0.5]];
         self.bikeStateImg.hidden = NO;
         self.bikeBrandImg.frame = CGRectMake(ScreenWidth * .265, ScreenHeight *.1, ScreenWidth*.47, ScreenWidth *.47*.7);
+        [self addSubview:self.bikeStateImg];
+        [self addSubview:self.bikeBleLab];
     }else{
         gradientLayer.startPoint = CGPointMake(0, 0);
         gradientLayer.endPoint = CGPointMake(0, 0.7);
         gradientLayer.locations = @[[NSNumber numberWithFloat:0.0], [NSNumber numberWithFloat:0.7]];
         self.bikeStateImg.hidden = YES;
         self.bikeBrandImg.frame = CGRectMake(ScreenWidth*.192, ScreenHeight *.13, ScreenWidth*.616, ScreenWidth*.616*.7);
+        [self.bikeStateImg removeFromSuperview];
+        [self.bikeBleLab removeFromSuperview];
+        self.bikeStateImg = nil;
+        self.bikeBleLab = nil;
+        
     }
     [self layoutIfNeeded];
 }

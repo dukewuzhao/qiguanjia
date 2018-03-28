@@ -20,9 +20,7 @@
 #define passwordDIC      @"passwordDIC"     // 密码所有
 #define userInfoDic      @"userInfoDic"     // 用户信息
 #define SETRSSI @"selected"
-
 #define MainColor @"#06c1ae"
-
 #define QGJURL @"http://139.196.233.61:8888/" //远程访问ip
 #define baidu @"http://api.map.baidu.com/telematics/v3/weather"
 #define apple @"http://itunes.apple.com/cn/lookup"
@@ -46,7 +44,7 @@
 #import "UILabel+LXLabel.h"
 #import "UIView+LX_Frame.h"
 #import "UIView+FTCornerdious.h"
-
+#import "SGQRCode.h"
 #import "BaseViewController.h"
 #import "AppDelegate.h"
 #import "QFTools.h"
@@ -54,7 +52,6 @@
 #import "SVProgressHUD.h"
 #import "AFNetworking.h"
 #import "HttpRequest.h"
-
 #import "MSWeakTimer.h"
 #import "LoadView.h"
 #import "YYModel.h"

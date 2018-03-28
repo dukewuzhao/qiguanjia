@@ -16,6 +16,30 @@
 		1800A35820455E2100AA836E /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1800A35620455E2100AA836E /* BaseNavigationController.m */; };
 		1800A35B20455E3200AA836E /* ZMNavView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1800A35920455E3100AA836E /* ZMNavView.m */; };
 		1800C7B12047CD6E00892D8F /* DroppyScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1800C7B02047CD6E00892D8F /* DroppyScrollView.m */; };
+		1800DF28206B922200B0F98E /* GPSServicesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1800DEFF206B922200B0F98E /* GPSServicesViewController.m */; };
+		1800DF29206B922200B0F98E /* GPSServiceTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1800DF02206B922200B0F98E /* GPSServiceTableViewCell.m */; };
+		1800DF2A206B922200B0F98E /* CFSettingTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1800DF06206B922200B0F98E /* CFSettingTableViewController.m */; };
+		1800DF2B206B922200B0F98E /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 1800DF0A206B922200B0F98E /* UIColor+Hex.m */; };
+		1800DF2C206B922200B0F98E /* GPSDetailTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1800DF0D206B922200B0F98E /* GPSDetailTableViewCell.m */; };
+		1800DF2D206B922200B0F98E /* GPSDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1800DF0F206B922200B0F98E /* GPSDetailViewController.m */; };
+		1800DF2E206B922200B0F98E /* CFSettingArrowItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 1800DF12206B922200B0F98E /* CFSettingArrowItem.m */; };
+		1800DF2F206B922200B0F98E /* CFSettingGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 1800DF14206B922200B0F98E /* CFSettingGroup.m */; };
+		1800DF30206B922200B0F98E /* CFSettingIconArrowItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 1800DF16206B922200B0F98E /* CFSettingIconArrowItem.m */; };
+		1800DF31206B922200B0F98E /* CFSettingIconItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 1800DF18206B922200B0F98E /* CFSettingIconItem.m */; };
+		1800DF32206B922200B0F98E /* CFSettingItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 1800DF1A206B922200B0F98E /* CFSettingItem.m */; };
+		1800DF33206B922200B0F98E /* CFSettingLabelArrowItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 1800DF1C206B922200B0F98E /* CFSettingLabelArrowItem.m */; };
+		1800DF34206B922200B0F98E /* CFSettingLabelItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 1800DF1E206B922200B0F98E /* CFSettingLabelItem.m */; };
+		1800DF35206B922200B0F98E /* CFSettingSwitchItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 1800DF20206B922200B0F98E /* CFSettingSwitchItem.m */; };
+		1800DF36206B922200B0F98E /* CFIconArrowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1800DF23206B922200B0F98E /* CFIconArrowView.m */; };
+		1800DF37206B922200B0F98E /* CFLabelArrowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1800DF25206B922200B0F98E /* CFLabelArrowView.m */; };
+		1800DF38206B922200B0F98E /* CFSettingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1800DF27206B922200B0F98E /* CFSettingCell.m */; };
+		1800DF49206B928F00B0F98E /* UIImage+SGImageSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 1800DF3C206B928F00B0F98E /* UIImage+SGImageSize.m */; };
+		1800DF4A206B928F00B0F98E /* SGQRCode.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1800DF3D206B928F00B0F98E /* SGQRCode.bundle */; };
+		1800DF4B206B928F00B0F98E /* SGQRCodeAlbumManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1800DF40206B928F00B0F98E /* SGQRCodeAlbumManager.m */; };
+		1800DF4C206B928F00B0F98E /* SGQRCodeGenerateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1800DF42206B928F00B0F98E /* SGQRCodeGenerateManager.m */; };
+		1800DF4D206B928F00B0F98E /* SGQRCodeHelperTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1800DF44206B928F00B0F98E /* SGQRCodeHelperTool.m */; };
+		1800DF4E206B928F00B0F98E /* SGQRCodeScanManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1800DF46206B928F00B0F98E /* SGQRCodeScanManager.m */; };
+		1800DF4F206B928F00B0F98E /* SGQRCodeScanningView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1800DF48206B928F00B0F98E /* SGQRCodeScanningView.m */; };
 		18014B341DCAED61003D4662 /* HelpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18014B331DCAED61003D4662 /* HelpViewController.m */; };
 		18014B371DCB2E89003D4662 /* BottomBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 18014B361DCB2E89003D4662 /* BottomBtn.m */; };
 		18053F0D1F8E2958009C2F6C /* UIAlertView+MyAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18053F0B1F8E27B2009C2F6C /* UIAlertView+MyAlertView.m */; };
@@ -226,7 +250,6 @@
 		1824E8E9205A40FF00402C5C /* ZMLoadFailedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1824E8E6205A40FE00402C5C /* ZMLoadFailedView.m */; };
 		1824E8EA205A40FF00402C5C /* ZMLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1824E8E7205A40FE00402C5C /* ZMLoadingView.m */; };
 		1824E8EE205A44D200402C5C /* BikeMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1824E8ED205A44D200402C5C /* BikeMessageViewController.m */; };
-		1824E8F2205A452C00402C5C /* GPSServicesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1824E8F1205A452C00402C5C /* GPSServicesViewController.m */; };
 		1824E8F5205A488F00402C5C /* no_bikeGPS@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1824E8F3205A488F00402C5C /* no_bikeGPS@2x.png */; };
 		1824E8F6205A488F00402C5C /* no_bikemessage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1824E8F4205A488F00402C5C /* no_bikemessage@2x.png */; };
 		1824E902205A4CBC00402C5C /* SeizeSeatView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1824E901205A4CBC00402C5C /* SeizeSeatView.m */; };
@@ -526,14 +549,8 @@
 		18EAEEEA2069EDEA0009B5A6 /* bike_temperature@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18EAEEE72069EDE90009B5A6 /* bike_temperature@2x.png */; };
 		18EAEEEB2069EDEA0009B5A6 /* bike_voltage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18EAEEE82069EDE90009B5A6 /* bike_voltage@2x.png */; };
 		18EAEEEC2069EDEA0009B5A6 /* suspension_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18EAEEE92069EDEA0009B5A6 /* suspension_bg@2x.png */; };
-		18EAEEF02069EECF0009B5A6 /* bike_temperature@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18EAEEED2069EECE0009B5A6 /* bike_temperature@2x.png */; };
-		18EAEEF12069EECF0009B5A6 /* bike_voltage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18EAEEEE2069EECF0009B5A6 /* bike_voltage@2x.png */; };
-		18EAEEF22069EECF0009B5A6 /* suspension_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18EAEEEF2069EECF0009B5A6 /* suspension_bg@2x.png */; };
-		18EAEEF6206A335D0009B5A6 /* GPSServiceTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EAEEF5206A335D0009B5A6 /* GPSServiceTableViewCell.m */; };
 		18EAEEF9206A44430009B5A6 /* gps_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18EAEEF7206A44430009B5A6 /* gps_bg@2x.png */; };
 		18EAEEFA206A44430009B5A6 /* GPS_user_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18EAEEF8206A44430009B5A6 /* GPS_user_icon@2x.png */; };
-		18EAEF03206A49630009B5A6 /* GPSDetailTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EAEF02206A49630009B5A6 /* GPSDetailTableViewCell.m */; };
-		18EAEF06206A4F8E0009B5A6 /* GPSDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EAEF05206A4F8E0009B5A6 /* GPSDetailViewController.m */; };
 		18EE5C891FF4D23900F77A73 /* GroupTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EE5C881FF4D23900F77A73 /* GroupTableViewCell.m */; };
 		18EE5C8C1FF4DE4200F77A73 /* PlainTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EE5C8B1FF4DE4200F77A73 /* PlainTableViewCell.m */; };
 		18F1444C1F566D37008AB8C8 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18F144321F566D37008AB8C8 /* Info.plist */; };
@@ -660,6 +677,56 @@
 		1800A35A20455E3100AA836E /* ZMNavView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZMNavView.h; sourceTree = "<group>"; };
 		1800C7AF2047CD6E00892D8F /* DroppyScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DroppyScrollView.h; sourceTree = "<group>"; };
 		1800C7B02047CD6E00892D8F /* DroppyScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DroppyScrollView.m; sourceTree = "<group>"; };
+		1800DEFE206B922200B0F98E /* GPSServicesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPSServicesViewController.h; sourceTree = "<group>"; };
+		1800DEFF206B922200B0F98E /* GPSServicesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPSServicesViewController.m; sourceTree = "<group>"; };
+		1800DF01206B922200B0F98E /* GPSServiceTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPSServiceTableViewCell.h; sourceTree = "<group>"; };
+		1800DF02206B922200B0F98E /* GPSServiceTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPSServiceTableViewCell.m; sourceTree = "<group>"; };
+		1800DF05206B922200B0F98E /* CFSettingTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFSettingTableViewController.h; sourceTree = "<group>"; };
+		1800DF06206B922200B0F98E /* CFSettingTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFSettingTableViewController.m; sourceTree = "<group>"; };
+		1800DF07206B922200B0F98E /* Const.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Const.h; sourceTree = "<group>"; };
+		1800DF08206B922200B0F98E /* TableViewSettingList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewSettingList.h; sourceTree = "<group>"; };
+		1800DF09206B922200B0F98E /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		1800DF0A206B922200B0F98E /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		1800DF0C206B922200B0F98E /* GPSDetailTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPSDetailTableViewCell.h; sourceTree = "<group>"; };
+		1800DF0D206B922200B0F98E /* GPSDetailTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPSDetailTableViewCell.m; sourceTree = "<group>"; };
+		1800DF0E206B922200B0F98E /* GPSDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPSDetailViewController.h; sourceTree = "<group>"; };
+		1800DF0F206B922200B0F98E /* GPSDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPSDetailViewController.m; sourceTree = "<group>"; };
+		1800DF11206B922200B0F98E /* CFSettingArrowItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFSettingArrowItem.h; sourceTree = "<group>"; };
+		1800DF12206B922200B0F98E /* CFSettingArrowItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFSettingArrowItem.m; sourceTree = "<group>"; };
+		1800DF13206B922200B0F98E /* CFSettingGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFSettingGroup.h; sourceTree = "<group>"; };
+		1800DF14206B922200B0F98E /* CFSettingGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFSettingGroup.m; sourceTree = "<group>"; };
+		1800DF15206B922200B0F98E /* CFSettingIconArrowItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFSettingIconArrowItem.h; sourceTree = "<group>"; };
+		1800DF16206B922200B0F98E /* CFSettingIconArrowItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFSettingIconArrowItem.m; sourceTree = "<group>"; };
+		1800DF17206B922200B0F98E /* CFSettingIconItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFSettingIconItem.h; sourceTree = "<group>"; };
+		1800DF18206B922200B0F98E /* CFSettingIconItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFSettingIconItem.m; sourceTree = "<group>"; };
+		1800DF19206B922200B0F98E /* CFSettingItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFSettingItem.h; sourceTree = "<group>"; };
+		1800DF1A206B922200B0F98E /* CFSettingItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFSettingItem.m; sourceTree = "<group>"; };
+		1800DF1B206B922200B0F98E /* CFSettingLabelArrowItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFSettingLabelArrowItem.h; sourceTree = "<group>"; };
+		1800DF1C206B922200B0F98E /* CFSettingLabelArrowItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFSettingLabelArrowItem.m; sourceTree = "<group>"; };
+		1800DF1D206B922200B0F98E /* CFSettingLabelItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFSettingLabelItem.h; sourceTree = "<group>"; };
+		1800DF1E206B922200B0F98E /* CFSettingLabelItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFSettingLabelItem.m; sourceTree = "<group>"; };
+		1800DF1F206B922200B0F98E /* CFSettingSwitchItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFSettingSwitchItem.h; sourceTree = "<group>"; };
+		1800DF20206B922200B0F98E /* CFSettingSwitchItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFSettingSwitchItem.m; sourceTree = "<group>"; };
+		1800DF22206B922200B0F98E /* CFIconArrowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFIconArrowView.h; sourceTree = "<group>"; };
+		1800DF23206B922200B0F98E /* CFIconArrowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFIconArrowView.m; sourceTree = "<group>"; };
+		1800DF24206B922200B0F98E /* CFLabelArrowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFLabelArrowView.h; sourceTree = "<group>"; };
+		1800DF25206B922200B0F98E /* CFLabelArrowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFLabelArrowView.m; sourceTree = "<group>"; };
+		1800DF26206B922200B0F98E /* CFSettingCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFSettingCell.h; sourceTree = "<group>"; };
+		1800DF27206B922200B0F98E /* CFSettingCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFSettingCell.m; sourceTree = "<group>"; };
+		1800DF3B206B928F00B0F98E /* UIImage+SGImageSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+SGImageSize.h"; sourceTree = "<group>"; };
+		1800DF3C206B928F00B0F98E /* UIImage+SGImageSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+SGImageSize.m"; sourceTree = "<group>"; };
+		1800DF3D206B928F00B0F98E /* SGQRCode.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SGQRCode.bundle; sourceTree = "<group>"; };
+		1800DF3E206B928F00B0F98E /* SGQRCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGQRCode.h; sourceTree = "<group>"; };
+		1800DF3F206B928F00B0F98E /* SGQRCodeAlbumManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGQRCodeAlbumManager.h; sourceTree = "<group>"; };
+		1800DF40206B928F00B0F98E /* SGQRCodeAlbumManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGQRCodeAlbumManager.m; sourceTree = "<group>"; };
+		1800DF41206B928F00B0F98E /* SGQRCodeGenerateManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGQRCodeGenerateManager.h; sourceTree = "<group>"; };
+		1800DF42206B928F00B0F98E /* SGQRCodeGenerateManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGQRCodeGenerateManager.m; sourceTree = "<group>"; };
+		1800DF43206B928F00B0F98E /* SGQRCodeHelperTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGQRCodeHelperTool.h; sourceTree = "<group>"; };
+		1800DF44206B928F00B0F98E /* SGQRCodeHelperTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGQRCodeHelperTool.m; sourceTree = "<group>"; };
+		1800DF45206B928F00B0F98E /* SGQRCodeScanManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGQRCodeScanManager.h; sourceTree = "<group>"; };
+		1800DF46206B928F00B0F98E /* SGQRCodeScanManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGQRCodeScanManager.m; sourceTree = "<group>"; };
+		1800DF47206B928F00B0F98E /* SGQRCodeScanningView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGQRCodeScanningView.h; sourceTree = "<group>"; };
+		1800DF48206B928F00B0F98E /* SGQRCodeScanningView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGQRCodeScanningView.m; sourceTree = "<group>"; };
 		18014B321DCAED61003D4662 /* HelpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelpViewController.h; sourceTree = "<group>"; };
 		18014B331DCAED61003D4662 /* HelpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelpViewController.m; sourceTree = "<group>"; };
 		18014B351DCB2E89003D4662 /* BottomBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BottomBtn.h; sourceTree = "<group>"; };
@@ -894,8 +961,6 @@
 		1824E8E8205A40FF00402C5C /* ZMLoadFailedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZMLoadFailedView.h; sourceTree = "<group>"; };
 		1824E8EC205A44D200402C5C /* BikeMessageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BikeMessageViewController.h; sourceTree = "<group>"; };
 		1824E8ED205A44D200402C5C /* BikeMessageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BikeMessageViewController.m; sourceTree = "<group>"; };
-		1824E8F0205A452C00402C5C /* GPSServicesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GPSServicesViewController.h; sourceTree = "<group>"; };
-		1824E8F1205A452C00402C5C /* GPSServicesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPSServicesViewController.m; sourceTree = "<group>"; };
 		1824E8F3205A488F00402C5C /* no_bikeGPS@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "no_bikeGPS@2x.png"; sourceTree = "<group>"; };
 		1824E8F4205A488F00402C5C /* no_bikemessage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "no_bikemessage@2x.png"; sourceTree = "<group>"; };
 		1824E900205A4CBC00402C5C /* SeizeSeatView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SeizeSeatView.h; sourceTree = "<group>"; };
@@ -1383,17 +1448,8 @@
 		18EAEEE72069EDE90009B5A6 /* bike_temperature@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bike_temperature@2x.png"; sourceTree = "<group>"; };
 		18EAEEE82069EDE90009B5A6 /* bike_voltage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bike_voltage@2x.png"; sourceTree = "<group>"; };
 		18EAEEE92069EDEA0009B5A6 /* suspension_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "suspension_bg@2x.png"; sourceTree = "<group>"; };
-		18EAEEED2069EECE0009B5A6 /* bike_temperature@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bike_temperature@2x.png"; path = "../../../../../首页添加的切图/gps首页更变添加的图标切图/bike_temperature@2x.png"; sourceTree = "<group>"; };
-		18EAEEEE2069EECF0009B5A6 /* bike_voltage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bike_voltage@2x.png"; path = "../../../../../首页添加的切图/gps首页更变添加的图标切图/bike_voltage@2x.png"; sourceTree = "<group>"; };
-		18EAEEEF2069EECF0009B5A6 /* suspension_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "suspension_bg@2x.png"; path = "../../../../../首页添加的切图/gps首页更变添加的图标切图/suspension_bg@2x.png"; sourceTree = "<group>"; };
-		18EAEEF4206A335D0009B5A6 /* GPSServiceTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GPSServiceTableViewCell.h; sourceTree = "<group>"; };
-		18EAEEF5206A335D0009B5A6 /* GPSServiceTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPSServiceTableViewCell.m; sourceTree = "<group>"; };
 		18EAEEF7206A44430009B5A6 /* gps_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gps_bg@2x.png"; sourceTree = "<group>"; };
 		18EAEEF8206A44430009B5A6 /* GPS_user_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GPS_user_icon@2x.png"; sourceTree = "<group>"; };
-		18EAEF01206A49630009B5A6 /* GPSDetailTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GPSDetailTableViewCell.h; sourceTree = "<group>"; };
-		18EAEF02206A49630009B5A6 /* GPSDetailTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPSDetailTableViewCell.m; sourceTree = "<group>"; };
-		18EAEF04206A4F8E0009B5A6 /* GPSDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GPSDetailViewController.h; sourceTree = "<group>"; };
-		18EAEF05206A4F8E0009B5A6 /* GPSDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPSDetailViewController.m; sourceTree = "<group>"; };
 		18EE5C871FF4D23900F77A73 /* GroupTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GroupTableViewCell.h; sourceTree = "<group>"; };
 		18EE5C881FF4D23900F77A73 /* GroupTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GroupTableViewCell.m; sourceTree = "<group>"; };
 		18EE5C8A1FF4DE4200F77A73 /* PlainTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlainTableViewCell.h; sourceTree = "<group>"; };
@@ -1683,6 +1739,134 @@
 				1800C7B02047CD6E00892D8F /* DroppyScrollView.m */,
 			);
 			path = MainScrollView;
+			sourceTree = "<group>";
+		};
+		1800DEFC206B922200B0F98E /* gps服务 */ = {
+			isa = PBXGroup;
+			children = (
+				1800DEFD206B922200B0F98E /* GPS列表 */,
+				1800DF03206B922200B0F98E /* GPS详情页 */,
+			);
+			path = "gps服务";
+			sourceTree = "<group>";
+		};
+		1800DEFD206B922200B0F98E /* GPS列表 */ = {
+			isa = PBXGroup;
+			children = (
+				1800DEFE206B922200B0F98E /* GPSServicesViewController.h */,
+				1800DEFF206B922200B0F98E /* GPSServicesViewController.m */,
+				1800DF00206B922200B0F98E /* GPSServiceTableviewCell */,
+			);
+			path = "GPS列表";
+			sourceTree = "<group>";
+		};
+		1800DF00206B922200B0F98E /* GPSServiceTableviewCell */ = {
+			isa = PBXGroup;
+			children = (
+				1800DF01206B922200B0F98E /* GPSServiceTableViewCell.h */,
+				1800DF02206B922200B0F98E /* GPSServiceTableViewCell.m */,
+			);
+			path = GPSServiceTableviewCell;
+			sourceTree = "<group>";
+		};
+		1800DF03206B922200B0F98E /* GPS详情页 */ = {
+			isa = PBXGroup;
+			children = (
+				1800DF0E206B922200B0F98E /* GPSDetailViewController.h */,
+				1800DF0F206B922200B0F98E /* GPSDetailViewController.m */,
+				1800DF04206B922200B0F98E /* Controller */,
+				1800DF0B206B922200B0F98E /* GPSDetailViewCell */,
+				1800DF10206B922200B0F98E /* Model */,
+				1800DF21206B922200B0F98E /* View */,
+			);
+			path = "GPS详情页";
+			sourceTree = "<group>";
+		};
+		1800DF04206B922200B0F98E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1800DF05206B922200B0F98E /* CFSettingTableViewController.h */,
+				1800DF06206B922200B0F98E /* CFSettingTableViewController.m */,
+				1800DF07206B922200B0F98E /* Const.h */,
+				1800DF08206B922200B0F98E /* TableViewSettingList.h */,
+				1800DF09206B922200B0F98E /* UIColor+Hex.h */,
+				1800DF0A206B922200B0F98E /* UIColor+Hex.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1800DF0B206B922200B0F98E /* GPSDetailViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				1800DF0C206B922200B0F98E /* GPSDetailTableViewCell.h */,
+				1800DF0D206B922200B0F98E /* GPSDetailTableViewCell.m */,
+			);
+			path = GPSDetailViewCell;
+			sourceTree = "<group>";
+		};
+		1800DF10206B922200B0F98E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1800DF11206B922200B0F98E /* CFSettingArrowItem.h */,
+				1800DF12206B922200B0F98E /* CFSettingArrowItem.m */,
+				1800DF13206B922200B0F98E /* CFSettingGroup.h */,
+				1800DF14206B922200B0F98E /* CFSettingGroup.m */,
+				1800DF15206B922200B0F98E /* CFSettingIconArrowItem.h */,
+				1800DF16206B922200B0F98E /* CFSettingIconArrowItem.m */,
+				1800DF17206B922200B0F98E /* CFSettingIconItem.h */,
+				1800DF18206B922200B0F98E /* CFSettingIconItem.m */,
+				1800DF19206B922200B0F98E /* CFSettingItem.h */,
+				1800DF1A206B922200B0F98E /* CFSettingItem.m */,
+				1800DF1B206B922200B0F98E /* CFSettingLabelArrowItem.h */,
+				1800DF1C206B922200B0F98E /* CFSettingLabelArrowItem.m */,
+				1800DF1D206B922200B0F98E /* CFSettingLabelItem.h */,
+				1800DF1E206B922200B0F98E /* CFSettingLabelItem.m */,
+				1800DF1F206B922200B0F98E /* CFSettingSwitchItem.h */,
+				1800DF20206B922200B0F98E /* CFSettingSwitchItem.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1800DF21206B922200B0F98E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1800DF22206B922200B0F98E /* CFIconArrowView.h */,
+				1800DF23206B922200B0F98E /* CFIconArrowView.m */,
+				1800DF24206B922200B0F98E /* CFLabelArrowView.h */,
+				1800DF25206B922200B0F98E /* CFLabelArrowView.m */,
+				1800DF26206B922200B0F98E /* CFSettingCell.h */,
+				1800DF27206B922200B0F98E /* CFSettingCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1800DF39206B928F00B0F98E /* SGQRCode */ = {
+			isa = PBXGroup;
+			children = (
+				1800DF3A206B928F00B0F98E /* Category */,
+				1800DF3D206B928F00B0F98E /* SGQRCode.bundle */,
+				1800DF3E206B928F00B0F98E /* SGQRCode.h */,
+				1800DF3F206B928F00B0F98E /* SGQRCodeAlbumManager.h */,
+				1800DF40206B928F00B0F98E /* SGQRCodeAlbumManager.m */,
+				1800DF41206B928F00B0F98E /* SGQRCodeGenerateManager.h */,
+				1800DF42206B928F00B0F98E /* SGQRCodeGenerateManager.m */,
+				1800DF43206B928F00B0F98E /* SGQRCodeHelperTool.h */,
+				1800DF44206B928F00B0F98E /* SGQRCodeHelperTool.m */,
+				1800DF45206B928F00B0F98E /* SGQRCodeScanManager.h */,
+				1800DF46206B928F00B0F98E /* SGQRCodeScanManager.m */,
+				1800DF47206B928F00B0F98E /* SGQRCodeScanningView.h */,
+				1800DF48206B928F00B0F98E /* SGQRCodeScanningView.m */,
+			);
+			path = SGQRCode;
+			sourceTree = "<group>";
+		};
+		1800DF3A206B928F00B0F98E /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				1800DF3B206B928F00B0F98E /* UIImage+SGImageSize.h */,
+				1800DF3C206B928F00B0F98E /* UIImage+SGImageSize.m */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 		18067B4D1FC4010200F30035 /* 录入指纹成功页面 */ = {
@@ -1984,9 +2168,6 @@
 				18EAEEE72069EDE90009B5A6 /* bike_temperature@2x.png */,
 				18EAEEE82069EDE90009B5A6 /* bike_voltage@2x.png */,
 				18EAEEE92069EDEA0009B5A6 /* suspension_bg@2x.png */,
-				18EAEEED2069EECE0009B5A6 /* bike_temperature@2x.png */,
-				18EAEEEE2069EECF0009B5A6 /* bike_voltage@2x.png */,
-				18EAEEEF2069EECF0009B5A6 /* suspension_bg@2x.png */,
 				18EAEEE42069EDA70009B5A6 /* bike_ble_connect@2x.png */,
 				18EAEEE32069EDA70009B5A6 /* bike_ble_disconnect@2x.png */,
 				18EAEEE12069EBF00009B5A6 /* bike_fault@2x.png */,
@@ -2131,15 +2312,6 @@
 				1824E8ED205A44D200402C5C /* BikeMessageViewController.m */,
 			);
 			path = "消息通知";
-			sourceTree = "<group>";
-		};
-		1824E8EF205A450D00402C5C /* gps服务 */ = {
-			isa = PBXGroup;
-			children = (
-				18EAEEFB206A48AE0009B5A6 /* GPS列表 */,
-				18EAEEFC206A48C80009B5A6 /* GPS详情页 */,
-			);
-			path = "gps服务";
 			sourceTree = "<group>";
 		};
 		1824E8FF205A4C8200402C5C /* 占位图 */ = {
@@ -3212,6 +3384,7 @@
 		18E2A58C1EF3B2F200EB7851 /* ThirdLib */ = {
 			isa = PBXGroup;
 			children = (
+				1800DF39206B928F00B0F98E /* SGQRCode */,
 				180FB6B51FDF8845007F65A9 /* baidumapsdk */,
 				18A85F7D1F69009F00C0E962 /* BaiduNaviSDK */,
 				18F144311F566D37008AB8C8 /* Masonry */,
@@ -3226,44 +3399,6 @@
 				18804EC51D55EC1E00973C9C /* sqlite */,
 			);
 			name = ThirdLib;
-			sourceTree = "<group>";
-		};
-		18EAEEF3206A32AE0009B5A6 /* GPSServiceTableviewCell */ = {
-			isa = PBXGroup;
-			children = (
-				18EAEEF4206A335D0009B5A6 /* GPSServiceTableViewCell.h */,
-				18EAEEF5206A335D0009B5A6 /* GPSServiceTableViewCell.m */,
-			);
-			path = GPSServiceTableviewCell;
-			sourceTree = "<group>";
-		};
-		18EAEEFB206A48AE0009B5A6 /* GPS列表 */ = {
-			isa = PBXGroup;
-			children = (
-				18EAEEF3206A32AE0009B5A6 /* GPSServiceTableviewCell */,
-				1824E8F0205A452C00402C5C /* GPSServicesViewController.h */,
-				1824E8F1205A452C00402C5C /* GPSServicesViewController.m */,
-			);
-			path = "GPS列表";
-			sourceTree = "<group>";
-		};
-		18EAEEFC206A48C80009B5A6 /* GPS详情页 */ = {
-			isa = PBXGroup;
-			children = (
-				18EAEF00206A49260009B5A6 /* GPSDetailViewCell */,
-				18EAEF04206A4F8E0009B5A6 /* GPSDetailViewController.h */,
-				18EAEF05206A4F8E0009B5A6 /* GPSDetailViewController.m */,
-			);
-			path = "GPS详情页";
-			sourceTree = "<group>";
-		};
-		18EAEF00206A49260009B5A6 /* GPSDetailViewCell */ = {
-			isa = PBXGroup;
-			children = (
-				18EAEF01206A49630009B5A6 /* GPSDetailTableViewCell.h */,
-				18EAEF02206A49630009B5A6 /* GPSDetailTableViewCell.m */,
-			);
-			path = GPSDetailViewCell;
 			sourceTree = "<group>";
 		};
 		18F144311F566D37008AB8C8 /* Masonry */ = {
@@ -3323,8 +3458,8 @@
 		18F40C541F4BD08E00738BD7 /* 侧边栏 */ = {
 			isa = PBXGroup;
 			children = (
+				1800DEFC206B922200B0F98E /* gps服务 */,
 				1824E8FF205A4C8200402C5C /* 占位图 */,
-				1824E8EF205A450D00402C5C /* gps服务 */,
 				1824E8EB205A449000402C5C /* 消息通知 */,
 				18B8DA5C205775EA00729B94 /* 侧边栏cell */,
 				18F40C551F4BD0D800738BD7 /* SideMenuViewController.h */,
@@ -3809,7 +3944,6 @@
 				1812670F20118ED40053A8F4 /* location@2x.png in Resources */,
 				1812674720118ED40053A8F4 /* electric1@2x.png in Resources */,
 				1812676F20118ED40053A8F4 /* binding_mute_key@2x.png in Resources */,
-				18EAEEF02069EECF0009B5A6 /* bike_temperature@2x.png in Resources */,
 				1812677B20118ED40053A8F4 /* del@2x.png in Resources */,
 				1812673520118ED40053A8F4 /* pop_bikeview@2x.png in Resources */,
 				18B8DA53205774D400729B94 /* yangsha.png in Resources */,
@@ -3957,7 +4091,6 @@
 				18B8DA41205774D400729B94 /* daxuezhuanbaoxue.png in Resources */,
 				185FD0EA1F53E83E00B31E70 /* qgjnew3.jpg in Resources */,
 				1812672320118ED40053A8F4 /* bracelet_have@2x.png in Resources */,
-				18EAEEF22069EECF0009B5A6 /* suspension_bg@2x.png in Resources */,
 				9D0D04151D17A0F400A6D5CD /* Assets.xcassets in Resources */,
 				185F93061D758863007AF954 /* hrs_s110_5_0.hex in Resources */,
 				1883C6B6205916FF00AAFBA6 /* bike_notice@2x.png in Resources */,
@@ -4054,6 +4187,7 @@
 				1812678D20118ED40053A8F4 /* close_the_switch@2x.png in Resources */,
 				1812673220118ED40053A8F4 /* icon_signal3@2x.png in Resources */,
 				189787E020561C2B00449627 /* bike_track@2x.png in Resources */,
+				1800DF4A206B928F00B0F98E /* SGQRCode.bundle in Resources */,
 				1883C6BB205916FF00AAFBA6 /* trajectory_start@2x.png in Resources */,
 				1812676720118ED40053A8F4 /* smalluserIcon@2x.png in Resources */,
 				18B8DA44205774D400729B94 /* dongyu.png in Resources */,
@@ -4083,7 +4217,6 @@
 				1812679E20118ED40053A8F4 /* saomiao@2x.png in Resources */,
 				18FA25A51FB93F4900C4EF68 /* scanLine@2x.png in Resources */,
 				1824E8F6205A488F00402C5C /* no_bikemessage@2x.png in Resources */,
-				18EAEEF12069EECF0009B5A6 /* bike_voltage@2x.png in Resources */,
 				1812674C20118ED40053A8F4 /* rotation.png in Resources */,
 				1812670420118ED40053A8F4 /* icon_pwd_show.png in Resources */,
 				1812670320118ED40053A8F4 /* icon_car_on@2x.png in Resources */,
@@ -4183,13 +4316,13 @@
 				18F144511F566D37008AB8C8 /* MASViewAttribute.m in Sources */,
 				183D6AD41FF6304B00EAB9E5 /* BikeInductionDistanceTableViewCell.m in Sources */,
 				1884D7311F95EA8A0037754F /* SearchBleModel.m in Sources */,
+				1800DF32206B922200B0F98E /* CFSettingItem.m in Sources */,
 				18067B471FC3D29500F30035 /* EditFingerprintViewController.m in Sources */,
 				18FA25AE1FB96B2F00C4EF68 /* ManualInputViewController.m in Sources */,
 				18F2636B1FCCF72C00132B22 /* FingerModel.m in Sources */,
 				9D0D04B81D18131300A6D5CD /* IdeaViewController.m in Sources */,
 				185F93221D758876007AF954 /* unzip.c in Sources */,
 				9D2E8E281D1C149200D7D3CF /* PersonalViewController.m in Sources */,
-				18EAEF06206A4F8E0009B5A6 /* GPSDetailViewController.m in Sources */,
 				184336E31FF1F5FA0049B836 /* NetWorkCallBack.m in Sources */,
 				1800A35B20455E3200AA836E /* ZMNavView.m in Sources */,
 				18E082C41F16116C000AB1B5 /* FaultModel.m in Sources */,
@@ -4198,13 +4331,15 @@
 				18014B341DCAED61003D4662 /* HelpViewController.m in Sources */,
 				1822C7861F5050550063AAE6 /* ATCarouselView.m in Sources */,
 				182BA7981F4137F5001BA381 /* YYAnimatedImageView.m in Sources */,
-				18EAEEF6206A335D0009B5A6 /* GPSServiceTableViewCell.m in Sources */,
+				1800DF29206B922200B0F98E /* GPSServiceTableViewCell.m in Sources */,
 				1806AE861DB76A2B00A47A42 /* PeripheralUUIDModel.m in Sources */,
 				9D2E8E171D1BBFEB00D7D3CF /* AFImageDownloader.m in Sources */,
 				1883C6A3205908FC00AAFBA6 /* UIColor+Expanded.m in Sources */,
 				1822C7821F5027D40063AAE6 /* SetUpViewController.m in Sources */,
+				1800DF34206B922200B0F98E /* CFSettingLabelItem.m in Sources */,
 				1823BD571FD2837100326B53 /* PcmPlayer.m in Sources */,
 				185F93011D758863007AF954 /* AppFilesViewController.m in Sources */,
+				1800DF2E206B922200B0F98E /* CFSettingArrowItem.m in Sources */,
 				18E2A54F1EF3AC7700EB7851 /* ImprovePersonalViewController.m in Sources */,
 				18E2A55C1EF3AD2700EB7851 /* ABCIntroView.m in Sources */,
 				1817668A2047F9B20098D93A /* CustomBike.m in Sources */,
@@ -4222,6 +4357,7 @@
 				185F92FA1D758863007AF954 /* BLEOperations.m in Sources */,
 				185F93211D758876007AF954 /* mztools.c in Sources */,
 				186A941D1D6B2AE70049EB71 /* UIView+WebCacheOperation.m in Sources */,
+				1800DF38206B922200B0F98E /* CFSettingCell.m in Sources */,
 				187E2F1C1F7A57B100E76A2D /* QRCodeReaderView.m in Sources */,
 				186A94161D6B2AE70049EB71 /* SDWebImagePrefetcher.m in Sources */,
 				1877FE511D37510C00A31AD5 /* SubmitViewController.m in Sources */,
@@ -4237,6 +4373,8 @@
 				184336E61FF22A2F0049B836 /* HttpRequest.m in Sources */,
 				18014B371DCB2E89003D4662 /* BottomBtn.m in Sources */,
 				18C874341DC4501A00634872 /* DeviceModifyViewController.m in Sources */,
+				1800DF2B206B922200B0F98E /* UIColor+Hex.m in Sources */,
+				1800DF4C206B928F00B0F98E /* SGQRCodeGenerateManager.m in Sources */,
 				18DDD7432063AED7008185E3 /* FingerprintAnimationView.m in Sources */,
 				185F90A81D7032D0007AF954 /* AddUserViewController.m in Sources */,
 				185F93001D758863007AF954 /* AccessFileSystem.m in Sources */,
@@ -4248,10 +4386,13 @@
 				9DF354721D1A900B008F0908 /* MBProgressHUD.m in Sources */,
 				182BA7951F4137F5001BA381 /* UIButton+YYWebImage.m in Sources */,
 				186A94111D6B2AE70049EB71 /* SDWebImageCompat.m in Sources */,
+				1800DF4F206B928F00B0F98E /* SGQRCodeScanningView.m in Sources */,
 				182BA79E1F4137F5001BA381 /* YYWebImageManager.m in Sources */,
 				18F144541F566D37008AB8C8 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
 				186A94131D6B2AE70049EB71 /* SDWebImageDownloader.m in Sources */,
+				1800DF36206B922200B0F98E /* CFIconArrowView.m in Sources */,
 				185F92FE1D758863007AF954 /* DFUHelper.m in Sources */,
+				1800DF33206B922200B0F98E /* CFSettingLabelArrowItem.m in Sources */,
 				1815F5472043F81C0099B60F /* VehicleStateView.m in Sources */,
 				1840E4F51F5958D700B2CB5A /* WuPageControl.m in Sources */,
 				18067B4A1FC3D90D00F30035 /* InputFingerprintViewController.m in Sources */,
@@ -4259,9 +4400,9 @@
 				9D2E8DD01D1B802400D7D3CF /* PopupView.m in Sources */,
 				18F40C571F4BD0D800738BD7 /* SideMenuViewController.m in Sources */,
 				18F40C521F4BCC3200738BD7 /* UIViewController+XYSideCategory.m in Sources */,
-				18EAEF03206A49630009B5A6 /* GPSDetailTableViewCell.m in Sources */,
 				187C77BD205109770083088C /* LrdOutputCell.m in Sources */,
 				182BA78E1F4137F5001BA381 /* YYCache.m in Sources */,
+				1800DF4B206B928F00B0F98E /* SGQRCodeAlbumManager.m in Sources */,
 				186A94191D6B2AE70049EB71 /* UIImage+MultiFormat.m in Sources */,
 				1817668D2047FD7C0098D93A /* BikeHeadView.m in Sources */,
 				182E21F41D993F58001CFDFD /* InductionModel.m in Sources */,
@@ -4292,11 +4433,11 @@
 				1883C6912059088D00AAFBA6 /* LXCalendarMonthModel.m in Sources */,
 				18E2A5781EF3B06A00EB7851 /* BaseViewController.m in Sources */,
 				9D2E8E0E1D1BBFEB00D7D3CF /* AFHTTPSessionManager.m in Sources */,
+				1800DF35206B922200B0F98E /* CFSettingSwitchItem.m in Sources */,
 				9D0D045B1D17A81300A6D5CD /* MapViewController.mm in Sources */,
 				1836979A1DC9D11F005CD418 /* AgreementViewController.m in Sources */,
 				182BA7911F4137F5001BA381 /* YYMemoryCache.m in Sources */,
 				9D2E8E121D1BBFEB00D7D3CF /* AFURLResponseSerialization.m in Sources */,
-				1824E8F2205A452C00402C5C /* GPSServicesViewController.m in Sources */,
 				1800C7B12047CD6E00892D8F /* DroppyScrollView.m in Sources */,
 				185F92FC1D758863007AF954 /* DFUOperationsDetails.m in Sources */,
 				18F144521F566D37008AB8C8 /* MASViewConstraint.m in Sources */,
@@ -4310,11 +4451,13 @@
 				9D2E8E181D1BBFEB00D7D3CF /* AFNetworkActivityIndicatorManager.m in Sources */,
 				1883C6A2205908FC00AAFBA6 /* LxButton.m in Sources */,
 				1883C6942059088D00AAFBA6 /* LXCalenderCell.m in Sources */,
+				1800DF28206B922200B0F98E /* GPSServicesViewController.m in Sources */,
 				18BBF1AC1FC6C37C00390D9D /* FingerprintModel.m in Sources */,
 				182BA79D1F4137F5001BA381 /* YYImageCache.m in Sources */,
 				18E082CA1F161D77000AB1B5 /* DfuDownloadFile.m in Sources */,
 				185F92FB1D758863007AF954 /* DFUOperations.m in Sources */,
 				18C6BBB41FCC1D2D002574EF /* BikeModelInfoModel.m in Sources */,
+				1800DF4D206B928F00B0F98E /* SGQRCodeHelperTool.m in Sources */,
 				18F144551F566D37008AB8C8 /* View+MASAdditions.m in Sources */,
 				18D32A5D1F4D9BA50039CBC4 /* LrdOutputView.m in Sources */,
 				18067B351FC3C14400F30035 /* VehicleFingerprintViewController.m in Sources */,
@@ -4348,6 +4491,9 @@
 				0EC76799205558B6009BA384 /* TrajectoryTableViewCell.m in Sources */,
 				18669E7D1F17029A00AB13E9 /* FirmwareUpdate.m in Sources */,
 				9D2E8E1D1D1BBFEB00D7D3CF /* UIRefreshControl+AFNetworking.m in Sources */,
+				1800DF31206B922200B0F98E /* CFSettingIconItem.m in Sources */,
+				1800DF2C206B922200B0F98E /* GPSDetailTableViewCell.m in Sources */,
+				1800DF37206B922200B0F98E /* CFLabelArrowView.m in Sources */,
 				18B8DA762057C76400729B94 /* GPSFootView.m in Sources */,
 				185FD0FA1F5426E600B31E70 /* HelpDetailViewController.m in Sources */,
 				18F144501F566D37008AB8C8 /* MASLayoutConstraint.m in Sources */,
@@ -4358,6 +4504,7 @@
 				18B8DA6F2057C40B00729B94 /* BindingGPSViewController.m in Sources */,
 				18C8742E1DC0DC7500634872 /* CircleProgressView.m in Sources */,
 				1883C6A6205908FC00AAFBA6 /* UIView+LX_Frame.m in Sources */,
+				1800DF2A206B922200B0F98E /* CFSettingTableViewController.m in Sources */,
 				18420D4D1FB59AE500A22637 /* CollectionViewCell.m in Sources */,
 				183D6ACE1FF62FB800EAB9E5 /* BikeNameTableViewCell.m in Sources */,
 				185FD0E41F53C73200B31E70 /* AutomaticLockModel.m in Sources */,
@@ -4398,8 +4545,11 @@
 				1823BD5A1FD2854500326B53 /* TTSConfig.m in Sources */,
 				18EE5C891FF4D23900F77A73 /* GroupTableViewCell.m in Sources */,
 				1835AB241D6867CA001613AD /* ModelInfo.m in Sources */,
+				1800DF2D206B922200B0F98E /* GPSDetailViewController.m in Sources */,
 				18E2A56D1EF3AF5F00EB7851 /* WYDevice.m in Sources */,
 				18E040D01D34AC4C00F1CAC0 /* AddBikeViewController.m in Sources */,
+				1800DF49206B928F00B0F98E /* UIImage+SGImageSize.m in Sources */,
+				1800DF4E206B928F00B0F98E /* SGQRCodeScanManager.m in Sources */,
 				18B8DA722057C73100729B94 /* GPSHeadView.m in Sources */,
 				186A94181D6B2AE70049EB71 /* UIImage+GIF.m in Sources */,
 				9D0D04451D17A1AB00A6D5CD /* MMDrawerBarButtonItem.m in Sources */,
@@ -4413,6 +4563,8 @@
 				18C874311DC1F1E600634872 /* nameTextFiledController.m in Sources */,
 				1883C6A5205908FC00AAFBA6 /* UIView+FTCornerdious.m in Sources */,
 				185D5C771D6AB5140053C808 /* PeripheralModel.m in Sources */,
+				1800DF30206B922200B0F98E /* CFSettingIconArrowItem.m in Sources */,
+				1800DF2F206B922200B0F98E /* CFSettingGroup.m in Sources */,
 				1829CD551EEAA4EF00F53415 /* QGJThirdPartService.m in Sources */,
 				182BA79B1F4137F5001BA381 /* YYImageCoder.m in Sources */,
 				18D2EFA61F556BAA004A6E8C /* TFSheetView.m in Sources */,

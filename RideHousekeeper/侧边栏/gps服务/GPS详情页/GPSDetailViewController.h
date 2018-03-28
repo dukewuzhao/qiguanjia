@@ -7,7 +7,7 @@
 //
 
 #import "BaseViewController.h"
-
-@interface GPSDetailViewController : BaseViewController
+#import "TableViewSettingList.h"
+@interface GPSDetailViewController : CFSettingTableViewController
 
 @end
